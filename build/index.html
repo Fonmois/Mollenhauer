@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Стартовый шаблон</title>
+	<link rel="stylesheet" href="./css/main.css"/>
+</head>
+
+<body class="body">
+	<header class="header">
+    <div class="container">
+        <div class="header__row">
+            <div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="218" height="38" viewBox="0 0 218 38"
+                    fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M206.7 22.6608L195.399 11.3304L206.7 0L218 11.3304L206.7 22.6608ZM200.538 19.5398L201.494 23.372C200.685 23.372 199.725 23.667 198.499 24.2565C197.31 24.846 196.202 25.5953 195.173 26.5037V37.4104H190.396V19.5398H192.895L194.475 22.5244C195.332 21.763 196.336 21.0756 197.488 20.4612C198.64 19.8469 199.656 19.5398 200.538 19.5398ZM190.186 12.8742V15.9083H189.328V11.3739H190.186L192.281 14.4013V11.3739H193.145V15.9083H192.281L190.186 12.8742ZM184.666 11.3739H187.366L187.499 12.054H185.524V13.2743H187L187.14 13.9668H185.524V15.2348H187.703L187.832 15.9083H184.666V11.3739ZM187.456 28.4198V29.8939H175.439C175.683 31.147 176.216 32.105 177.044 32.7681C177.858 33.4311 179.114 33.7763 180.804 33.7763C181.784 33.7763 182.666 33.6347 183.45 33.3576C184.234 33.0874 185.079 32.6941 185.986 32.1781L187.414 35.6724C186.475 36.3629 185.495 36.901 184.442 37.2816C183.388 37.6619 182.139 37.8525 180.713 37.8525C177.313 37.8525 174.746 37.0236 172.995 35.3655C171.258 33.7074 170.367 31.4167 170.367 28.4934C170.367 26.6021 170.728 24.944 171.451 23.5195C172.174 22.095 173.209 20.9956 174.557 20.2529C175.904 19.448 177.497 19.0607 179.334 19.0607C181.122 19.0607 182.629 19.4784 183.854 20.3138C185.079 21.1491 185.985 22.273 186.573 23.6853C187.161 25.0975 187.456 26.676 187.456 28.4198ZM181.656 24.0355C181.024 23.446 180.222 23.151 179.251 23.151C178.279 23.151 177.423 23.452 176.762 24.0538C176.1 24.6555 175.671 25.5335 175.475 26.6882H182.936C182.691 25.5091 182.288 24.6251 181.656 24.0355ZM179.778 12.8742V15.9083H178.92V11.3739H179.778L181.873 14.4013V11.3739H182.737V15.9083H181.873L179.778 12.8742ZM176.22 14.8413H174.504L174.105 15.9083H173.24L175.003 11.3739H175.734L177.49 15.8549L176.626 16.0023L176.22 14.8413ZM175.349 12.5608L174.757 14.1581H175.954L175.349 12.5608ZM169.323 11.3739H170.181V15.2348H172.176L172.309 15.9083H169.323V11.3739ZM166.863 14.1646C166.583 14.2779 166.277 14.3279 165.945 14.3279H165.45V15.9083H164.588V11.3739H166.005C166.537 11.3739 166.968 11.4929 167.298 11.7307C167.628 11.9685 167.794 12.3341 167.794 12.8275C167.794 13.1613 167.708 13.4344 167.538 13.6611C167.403 13.8878 167.159 14.0557 166.863 14.1646ZM166.684 12.2774C166.5 12.1552 166.275 12.094 165.978 12.094H165.45V13.6143H165.991C166.257 13.6143 166.468 13.5533 166.623 13.431C166.778 13.3088 166.865 13.1254 166.883 12.8809C166.883 12.6008 166.806 12.4319 166.684 12.2774ZM167.428 19.5398V37.4104H164.304L163.495 35.4943C162.393 36.2805 161.217 36.8949 159.967 37.3414C158.746 37.7785 157.628 38 156.656 38C154.369 38 152.818 37.3613 151.882 36.0839C150.976 34.8065 150.523 33.0257 150.523 30.741V19.5398H155.3V30.52C155.3 31.6255 155.527 32.4853 155.98 33.0996C156.433 33.7139 157.064 34.0207 157.873 34.0207C158.706 34.0207 159.489 33.8306 160.224 33.4599C160.959 33.0687 161.768 32.5588 162.65 31.9201V19.5398H167.428ZM159.823 16.0082L159.318 15.5415C159.149 15.6838 158.951 15.7927 158.722 15.8683C158.514 15.9437 158.242 15.9816 157.967 15.9816C157.635 15.9771 157.352 15.916 157.077 15.7983C156.802 15.6804 156.586 15.5071 156.431 15.2781C156.276 15.0492 156.198 14.7702 156.198 14.4412C156.198 14.2101 156.256 13.9812 156.371 13.7544C156.495 13.5277 156.642 13.3298 156.837 13.1609C156.75 12.9928 156.651 12.772 156.651 12.5408C156.651 12.3358 156.717 12.0974 156.827 11.904C156.944 11.7106 157.11 11.5561 157.322 11.4406C157.535 11.34 157.785 11.2672 158.054 11.2672C158.262 11.2672 158.475 11.2983 158.692 11.3606C158.91 11.4229 159.109 11.5304 159.291 11.6073L158.998 12.3008C158.839 12.2119 158.686 12.143 158.568 12.0941C158.393 12.0452 158.234 12.0207 158.061 12.0207C157.901 12.0207 157.775 12.0674 157.682 12.1608C157.588 12.2542 157.542 12.3697 157.542 12.5075C157.542 12.6364 157.585 12.7643 157.672 12.9186C157.758 13.0176 157.897 13.1654 158.087 13.3344L159.151 14.3012C159.262 14.0301 159.326 13.7078 159.344 13.3344L160.122 13.6521C160.096 14.0879 159.994 14.5057 159.816 14.9215L160.342 15.3614L159.823 16.0082ZM157.382 13.7678C157.205 13.9723 157.153 14.1945 157.11 14.4346C157.11 14.688 157.192 14.8791 157.356 15.008C157.52 15.137 157.724 15.2014 157.967 15.2014C158.247 15.2014 158.491 15.1553 158.699 14.9747L157.382 13.7678ZM148.926 12.8742V15.9083H148.068V11.3739H148.926L151.021 14.4013V11.3739H151.886V15.9083H151.021L148.926 12.8742ZM142.842 35.4943C141.348 37.0667 139.78 37.8525 138.139 37.8525C136.007 37.8525 134.402 37.3308 133.324 36.2866C132.247 35.2428 131.708 33.8366 131.708 32.0676C131.708 30.2498 132.32 28.8436 133.545 27.849C134.77 26.8544 136.411 26.3566 138.47 26.3566H141.961C141.936 25.4699 141.673 24.7416 141.17 24.2378C140.668 23.7344 139.976 23.497 139.094 23.497C138.286 23.497 137.391 23.5995 136.411 23.8327C135.431 24.1017 134.603 24.3422 133.912 24.6616L132.626 20.6823C133.291 20.2815 134.28 19.89 135.676 19.5585C137.073 19.2269 138.188 19.0607 139.021 19.0607C140.478 19.0607 141.74 19.3435 142.916 19.936C144.092 20.4734 145.033 21.2597 145.727 22.2665C146.425 23.2737 146.775 24.4036 146.775 25.6562V37.4104H143.689L142.842 35.4943ZM141.998 29.5825H138.396C137.612 29.5825 136.981 29.8078 136.503 30.299C136.036 30.7906 135.787 31.3802 135.787 32.0676C135.787 32.608 136.001 33.0748 136.43 33.4677C136.858 33.861 137.403 34.0573 138.065 34.0573C139.486 34.0573 140.823 33.4677 141.998 32.3107V29.5825ZM143.406 11.3739H146.106L146.239 12.054H144.264V13.2743H145.741L145.92 13.9668H144.264V15.2348H146.432L146.572 15.9083H143.406V11.3739ZM140.427 15.9083H139.556V12.054H138.179V11.3739H141.837L141.977 12.054H140.427V15.9083ZM135.978 14.8413H134.262L133.863 15.9083H132.998L134.761 11.3739H135.521L137.248 15.8549L136.408 16.0023L135.978 14.8413ZM135.107 12.5608L134.515 14.1581H135.712L135.107 12.5608ZM131.15 15.9083L130.192 14.2229H129.381V15.9083H128.523V11.3739H129.939C130.462 11.3739 130.891 11.4929 131.226 11.7307C131.561 11.9685 131.728 12.3141 131.728 12.7676C131.728 13.0387 131.684 13.2766 131.519 13.4811C131.379 13.6855 131.192 13.8456 130.957 13.9668L132.067 15.9083H131.15ZM129.913 12.094H129.381V13.481H129.926C130.196 13.481 130.412 13.4483 130.574 13.3177C130.736 13.2088 130.817 13.0387 130.817 12.8075C130.817 12.3319 130.516 12.094 129.913 12.094ZM123.513 26.4302C123.513 25.3251 123.286 24.4754 122.867 23.851C122.38 23.2371 121.749 22.9299 120.94 22.9299C120.107 22.9299 119.323 23.1205 118.588 23.5012C117.853 23.8819 117.045 24.3914 116.163 25.0301V37.4104H111.422V11.8022L116.163 11.3967V20.9033C117.167 20.289 118.209 19.8099 119.286 19.4662C120.364 19.1225 121.332 18.9502 122.189 18.9502C124.443 18.9502 126.024 19.5889 126.952 20.8663C127.837 22.1776 128.29 23.925 128.29 26.2253V37.4104H123.513V26.4302ZM123.861 11.3739H126.561L126.694 12.054H124.718V13.2743H126.195L126.335 13.9668H124.718V15.2348H126.897L127.026 15.9083H123.861V11.3739ZM121.899 15.5515C121.61 15.7893 121.223 15.9083 120.746 15.9083H118.879V11.3739H120.635C121.101 11.3739 121.464 11.4762 121.726 11.6807C121.987 11.8851 122.141 12.2052 122.141 12.6408C122.141 12.9254 121.956 13.1943 121.633 13.4477C122.098 13.6922 122.331 14.0678 122.331 14.5746C122.331 14.988 122.187 15.3137 121.899 15.5515ZM121.031 12.2513C120.925 12.1363 120.739 12.094 120.509 12.094H119.737V13.221H120.376C120.628 13.221 120.83 13.1732 120.981 13.0777C121.132 12.9821 121.207 12.841 121.207 12.6542C121.207 12.4497 121.148 12.3052 121.031 12.2513ZM121.244 14.0946C121.117 13.979 120.945 13.9211 120.728 13.9211H119.737V15.1947H120.668C120.903 15.1947 121.09 15.1414 121.254 15.048C121.364 14.9281 121.433 14.7769 121.433 14.5812C121.433 14.3724 121.37 14.2101 121.244 14.0946ZM102.382 26.4302C102.382 25.3251 102.155 24.4754 101.734 23.851C101.249 23.2371 100.618 22.9299 99.8096 22.9299C98.9765 22.9299 98.1923 23.1205 97.4572 23.5012C96.7222 23.8819 95.9138 24.3914 95.032 25.0301V37.4104H90.2548V19.5398H93.3783L94.1867 21.4559C95.2889 20.6701 96.4648 20.0558 97.7146 19.6137C98.9643 19.1717 100.079 18.9502 101.059 18.9502C103.313 18.9502 104.893 19.5889 105.799 20.8663C106.706 22.1776 107.159 23.925 107.159 26.2253V37.4104H102.382V26.4302ZM76.8964 32.7681C77.7326 33.4311 78.9728 33.7763 80.6634 33.7763C81.6432 33.7763 82.525 33.6347 83.3091 33.3576C84.118 33.0874 84.9481 32.6941 85.845 32.1781L87.2414 35.6724C86.3345 36.3629 85.3546 36.901 84.301 37.2816C83.2475 37.6619 82.0286 37.8525 80.5532 37.8525C77.1719 37.8525 74.6056 37.0236 72.8538 35.3655C71.102 33.7074 70.2617 31.4167 70.2617 28.4934C70.2617 26.6021 70.5874 24.944 71.3103 23.5195C72.0332 22.095 73.0682 20.9956 74.416 20.2529C75.7634 19.448 77.3559 19.0607 79.1932 19.0607C80.9814 19.0607 82.5145 19.4784 83.7131 20.3138C84.9481 21.1491 85.8446 22.273 86.4326 23.6853C87.0205 25.0975 87.3147 26.676 87.3147 28.4198V29.8939H75.2977C75.5425 31.147 76.0754 32.105 76.8964 32.7681ZM82.7948 26.6882C82.5497 25.5091 82.1149 24.6251 81.49 24.0355C80.8651 23.446 80.0628 23.151 79.083 23.151C78.1032 23.151 77.2821 23.452 76.6208 24.0538C75.9591 24.6555 75.5304 25.5335 75.3346 26.6882H82.7948ZM62.1789 11.8022L66.9197 11.3967V37.4104H62.1789V11.8022ZM52.6613 11.8022L57.4021 11.3967V37.4104H52.6613V11.8022ZM44.8521 36.6921C43.4188 37.4652 41.7468 37.8525 39.8358 37.8525C37.9247 37.8525 36.2528 37.479 34.8195 36.7104C33.3862 35.949 32.2775 34.8622 31.4938 33.4599C30.7097 32.0372 30.3178 30.3851 30.3178 28.4934C30.3178 26.6021 30.7097 24.944 31.4938 23.5195C32.2775 22.095 33.3862 20.9956 34.8195 20.2529C36.2528 19.448 37.9247 19.0607 39.8358 19.0607C41.7468 19.0607 43.4188 19.4418 44.8521 20.2033C46.2854 20.9647 47.3941 22.064 48.1782 23.4642C48.9619 24.8765 49.3542 26.5285 49.3542 28.4198C49.3542 30.3116 48.9619 31.9697 48.1782 33.3942C47.3941 34.8191 46.2854 35.9185 44.8521 36.6921ZM43.1433 24.6251C42.2858 23.6426 41.1831 23.151 39.8358 23.151C38.5127 23.151 37.4206 23.6548 36.5466 24.6616C35.677 25.6688 35.2421 26.9462 35.2421 28.4934C35.2421 30.0414 35.6708 31.3408 36.5624 32.3152C37.3858 33.2896 38.5101 33.7763 39.8358 33.7763C41.1588 33.7763 42.2554 33.2593 43.1507 32.2521C43.9946 31.2449 44.4294 29.9674 44.4294 28.4198C44.4294 26.8727 44.0007 25.6074 43.1433 24.6251ZM22.7478 26.4302C22.7478 25.2759 22.5699 24.404 22.2282 23.8145C21.872 23.2249 21.3024 22.9299 20.543 22.9299C19.8432 22.9299 19.134 23.1022 18.5213 23.446C17.9085 23.7897 17.1249 24.3057 16.1698 24.9931V25.4721V37.4104H11.3921V26.4302C11.3921 25.2759 11.2142 24.404 10.8593 23.8145C10.5038 23.2249 9.9467 22.9299 9.1873 22.9299C8.4522 22.9299 7.77831 23.1022 7.16602 23.446C6.55333 23.7897 5.75706 24.3179 4.77723 25.0301V37.4104H0V19.5398H3.12349L3.93188 21.4559C5.03409 20.6701 6.17361 20.0558 7.34959 19.6137C8.52553 19.1717 9.59457 18.9502 10.4366 18.9502C12.8619 18.9502 14.5103 19.7612 15.3614 21.4021C16.4636 20.6266 17.5901 20.0249 18.7782 19.6196C19.8934 19.1652 20.9101 18.9502 21.7923 18.9502C23.8257 18.9502 25.2894 19.4971 26.1966 20.5901C27.1113 21.683 27.525 23.3106 27.525 25.4721V37.4104H22.7478V26.4302Z"
+                        fill="#F7F9FC" />
+                </svg>
+            </div>
+
+            <ul class="nav-list nav-media">
+                <li class="nav-list__item"><a class="white nav-list__link" href="#!">Services</a></li>
+                <li class="nav-list__item"><a class="white nav-list__link" href="#!">Know How</a></li>
+                <li class="nav-list__item"><a class="white nav-list__link" href="#!">Projects & References</a></li>
+                <li class="nav-list__item"><a class="white nav-list__link" href="#!">Our Company</a></li>
+                <li class="nav-list__item"><a class="white nav-list__link" href="#!">Our Clients</a></li>
+                <li class="nav-list__item"><a class="white nav-list__link" href="#!">Careers</a></li>
+            </ul>
+
+            <button class="header__nav-btn nav-btn btn white mobile-none">Contact Us</button>
+            <div class="langluage mobile-nav__langluage mobile-none">
+                <ul class="langluage-list">
+                    <li class="langluage-list__item langluage-list__item--active"><svg class="langluage-list__img" xmlns="http://www.w3.org/2000/svg"
+                            width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <mask id="mask0_18_262" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                width="12" height="12">
+                                <circle cx="6" cy="6" r="6" fill="#D9D9D9" />
+                            </mask>
+                            <g mask="url(#mask0_18_262)">
+                                <path d="M-3.53613 8.42139H13.426V12.6319H-3.53613V8.42139Z" fill="#FFCE00" />
+                                <path d="M-3.53613 0H13.426V4.21047H-3.53613V0Z" fill="black" />
+                                <path d="M-3.53613 4.21045H13.426V8.42092H-3.53613V4.21045Z" fill="#DD0000" />
+                            </g>
+                        </svg><p class="langluage-list__text"><a class="langluage-list__link" href="#!">De.</a></p></li>
+                    <li class="langluage-list__item"><svg class="langluage-list__img" xmlns="http://www.w3.org/2000/svg"
+                            width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <mask id="mask0_18_270" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                width="12" height="12">
+                                <circle cx="6" cy="6" r="6" fill="#D9D9D9" />
+                            </mask>
+                            <g mask="url(#mask0_18_270)">
+                                <path d="M-6.94702 10.3164H22.7372V17.6848H-6.94702V10.3164Z" fill="#FFCE00" />
+                                <path d="M-6.94702 -4.4209H22.7372V2.94752H-6.94702V-4.4209Z" fill="black" />
+                                <path d="M-6.94702 2.94727H22.7372V10.3157H-6.94702V2.94727Z" fill="#DD0000" />
+                                <path d="M-2.52649 0H14.4359V12.6316H-2.52649V0Z" fill="#012169" />
+                                <path
+                                    d="M-0.538707 0L5.92821 4.76316L12.3686 0H14.4359V1.63158L8.07502 6.3421L14.4359 11.0263V12.6316H12.3156L5.95471 7.92105L-0.379685 12.6316H-2.52649V11.0526L3.80791 6.36842L-2.52649 1.68421V0H-0.538707Z"
+                                    fill="white" />
+                                <path
+                                    d="M8.71111 7.39474L14.4359 11.5789V12.6316L7.2534 7.39474H8.71111ZM3.83441 7.92105L3.99344 8.8421L-1.09529 12.6316H-2.52649L3.83441 7.92105ZM14.4359 0V0.0789474L7.83648 5.02632L7.88949 3.86842L13.1107 0H14.4359ZM-2.52649 0L3.80791 4.63158H2.21768L-2.52649 1.10526V0Z"
+                                    fill="#C8102E" />
+                                <path
+                                    d="M3.86092 0V12.6316H8.10152V0H3.86092ZM-2.52649 4.21053V8.42105H14.4359V4.21053H-2.52649Z"
+                                    fill="white" />
+                                <path
+                                    d="M-2.52649 5.07895V7.60526H14.4359V5.07895H-2.52649ZM4.70904 0V12.6316H7.2534V0H4.70904Z"
+                                    fill="#C8102E" />
+                            </g>
+                        </svg><p class="langluage-list__text"><a class="langluage-list__link" href="#!">En.</a></p></li>
+                    <li class="langluage-list__item"><svg class="langluage-list__img" xmlns="http://www.w3.org/2000/svg"
+                            width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <mask id="mask0_18_284" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                width="12" height="12">
+                                <circle cx="6" cy="6" r="6" fill="#D9D9D9" />
+                            </mask>
+                            <g mask="url(#mask0_18_284)">
+                                <path d="M-6.94702 10.3164H22.7372V17.6848H-6.94702V10.3164Z" fill="#FFCE00" />
+                                <path d="M-6.94702 -4.4209H22.7372V2.94752H-6.94702V-4.4209Z" fill="black" />
+                                <path d="M-6.94702 2.94727H22.7372V10.3157H-6.94702V2.94727Z" fill="#DD0000" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M-2.52649 0H14.7968V12.6316H-2.52649V0Z" fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M-2.52649 0H3.24704V12.6316H-2.52649V0Z" fill="#002654" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.02234 0H14.7959V12.6316H9.02234V0Z"
+                                    fill="#CE1126" />
+                            </g>
+                        </svg><p class="langluage-list__text"><a class="langluage-list__link" href="#!">Fr.</a></p></li>
+                </ul>
+            </div>
+            <button class="mobile-nav-btn">
+                <span class="nav-icon"></span>
+            </button>
+        </div>
+    </div>
+</header>
+<div class="mobile-nav">
+	<div class="mobile-nav__block">
+		<div class="langluage mobile-nav__langluage">
+			<ul class="langluage-list">
+				<li class="langluage-list__item"><svg class="langluage-list__img" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+					<mask id="mask0_18_262" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="12" height="12">
+					<circle cx="6" cy="6" r="6" fill="#D9D9D9"/>
+					</mask>
+					<g mask="url(#mask0_18_262)">
+					<path d="M-3.53613 8.42139H13.426V12.6319H-3.53613V8.42139Z" fill="#FFCE00"/>
+					<path d="M-3.53613 0H13.426V4.21047H-3.53613V0Z" fill="black"/>
+					<path d="M-3.53613 4.21045H13.426V8.42092H-3.53613V4.21045Z" fill="#DD0000"/>
+					</g>
+					</svg><p class="langluage-list__text"><a class="langluage-list__link" href="#!">De.</a></p></li>
+				<li class="langluage-list__item"><svg class="langluage-list__img" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+					<mask id="mask0_18_270" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="12" height="12">
+					<circle cx="6" cy="6" r="6" fill="#D9D9D9"/>
+					</mask>
+					<g mask="url(#mask0_18_270)">
+					<path d="M-6.94702 10.3164H22.7372V17.6848H-6.94702V10.3164Z" fill="#FFCE00"/>
+					<path d="M-6.94702 -4.4209H22.7372V2.94752H-6.94702V-4.4209Z" fill="black"/>
+					<path d="M-6.94702 2.94727H22.7372V10.3157H-6.94702V2.94727Z" fill="#DD0000"/>
+					<path d="M-2.52649 0H14.4359V12.6316H-2.52649V0Z" fill="#012169"/>
+					<path d="M-0.538707 0L5.92821 4.76316L12.3686 0H14.4359V1.63158L8.07502 6.3421L14.4359 11.0263V12.6316H12.3156L5.95471 7.92105L-0.379685 12.6316H-2.52649V11.0526L3.80791 6.36842L-2.52649 1.68421V0H-0.538707Z" fill="white"/>
+					<path d="M8.71111 7.39474L14.4359 11.5789V12.6316L7.2534 7.39474H8.71111ZM3.83441 7.92105L3.99344 8.8421L-1.09529 12.6316H-2.52649L3.83441 7.92105ZM14.4359 0V0.0789474L7.83648 5.02632L7.88949 3.86842L13.1107 0H14.4359ZM-2.52649 0L3.80791 4.63158H2.21768L-2.52649 1.10526V0Z" fill="#C8102E"/>
+					<path d="M3.86092 0V12.6316H8.10152V0H3.86092ZM-2.52649 4.21053V8.42105H14.4359V4.21053H-2.52649Z" fill="white"/>
+					<path d="M-2.52649 5.07895V7.60526H14.4359V5.07895H-2.52649ZM4.70904 0V12.6316H7.2534V0H4.70904Z" fill="#C8102E"/>
+					</g>
+					</svg><p class="langluage-list__text"><a class="langluage-list__link" href="#!">En.</a></p></li>
+				<li class="langluage-list__item"><svg class="langluage-list__img" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+					<mask id="mask0_18_284" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="12" height="12">
+					<circle cx="6" cy="6" r="6" fill="#D9D9D9"/>
+					</mask>
+					<g mask="url(#mask0_18_284)">
+					<path d="M-6.94702 10.3164H22.7372V17.6848H-6.94702V10.3164Z" fill="#FFCE00"/>
+					<path d="M-6.94702 -4.4209H22.7372V2.94752H-6.94702V-4.4209Z" fill="black"/>
+					<path d="M-6.94702 2.94727H22.7372V10.3157H-6.94702V2.94727Z" fill="#DD0000"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M-2.52649 0H14.7968V12.6316H-2.52649V0Z" fill="white"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M-2.52649 0H3.24704V12.6316H-2.52649V0Z" fill="#002654"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M9.02234 0H14.7959V12.6316H9.02234V0Z" fill="#CE1126"/>
+					</g>
+					</svg><p class="langluage-list__text"><a class="langluage-list__link" href="#!">Fr.</a></p></li>
+			</ul>
+		</div>
+		<ul class="nav-list">
+			<li class="nav-list__item"><a class="white nav-list__link" href="#!">Services</a></li>
+			<li class="nav-list__item"><a class="white nav-list__link" href="#!">Know How</a></li>
+			<li class="nav-list__item"><a class="white nav-list__link" href="#!">Projects & References</a></li>
+			<li class="nav-list__item"><a class="white nav-list__link" href="#!">Our Company</a></li>
+			<li class="nav-list__item"><a class="white nav-list__link" href="#!">Our Clients</a></li>
+			<li class="nav-list__item"><a class="white nav-list__link" href="#!">Careers</a></li>
+		</ul>
+		
+		<button class="mobile-nav__nav-btn nav-btn btn main-btn__text white">Contact Us</button>
+	</div>
+</div>
+	<main class="main">
+		<section class="main-page main-page_margin">
+    <div class="container">
+        <div class="main-page-container">
+            <h1 class="main-page-container__title h1"><span class="main-page-container__title_w">Civil</span>
+                Engineering Solutions <span class="main-page-container__title_w">For The</span> Cement <span
+                    class="main-page-container__title_w">Industry</span>
+            </h1>
+
+            <div class="main-block">
+                <div class="main-block-info">
+                    <p class="main-block-info__text">We are your leading partner for complex brownfield construction
+                        projects
+                        during
+                        ongoing operation.</p>
+                    <p class="main-block-info__text">Benefit from engineering excellence built on more than 30 years of
+                        industry
+                        experience.</p>
+                </div>
+
+                <div class="slogan-block slogan-block_margin">
+                    <div class="slogan-block__agil">
+                        <p class="slogan-block__text-agil slogan-block__setting white">Agil.</p>
+                    </div>
+                    <div class="slogan-block__ganzheitlich">
+                        <p class="slogan-block__text-ganzheitlich slogan-block__setting white">Ganzheitlich.</p>
+                    </div>
+                    <div class="slogan-block__zuverlassig">
+                        <p class="slogan-block__text-zuverlassig slogan-block__setting white">Zuverlässig.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="main-page-btn main-page-btn_margin">
+                <a href="#!" class="main-page-btn__serve main-page-btn__text white btn">How can we serve you</a>
+                <button class="main-page-btn__contact main-page-btn__text dark-blue btn">Contact Us</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="triangle-element triangle-element_margin">
+    </div>
+</section>
+		<section class="services">
+    <div class="services-top services-top__element"></div>
+    <div class="services-content services-content__element">
+        <div class="services-content-triangle services-content-triangle_margin">
+            <div class="services-content-triangle__container">
+                <img class="services-content-triangle__img" src="/img/background-mob/formula1.png" alt="formula1">
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 class="services__title h2 white">Comprehensive Structural Engineering Services</h2>
+            <p class="services__text text-md white">We accompany you from the first idea of your next construction
+                project
+                from
+                the first idea to
+                successful execution.
+            </p>
+
+            <div class="services-cards services-cards_margin">
+                <a href="#!" class="card1 services-cards__card services-cards__text">
+                    <p class="services-cards__link">Service and Support <span class="services-cards__plus"></span></p>
+                </a>
+                <a href="#!" class="card2 services-cards__card services-cards__text">
+                    <p class="services-cards__link">Preparation of contract award <span
+                            class="services-cards__plus"></span>
+                    </p>
+                </a>
+                <a href="#!" class="card3 services-cards__card services-cards__text">
+                    <p class="services-cards__link">Structural design and execution
+                        planning <span class="services-cards__plus"></span></p>
+                </a>
+                <a href="#!" class="card4 services-cards__card services-cards__text">
+                    <p class="services-cards__link">Project consulting <span class="services-cards__plus"></span>
+                    </p>
+                </a>
+                <a href="#!" class="card5 services-cards__card services-cards__text">
+                    <p class="services-cards__link">Construction site consulting <span
+                            class="services-cards__plus"></span></p>
+                </a>
+                <a href="#!" class="card6 services-cards__card services-cards__text">
+                    <p class="services-cards__link">Location analysis and feasibility
+                        studies <span class="services-cards__plus"></span></p>
+                </a>
+            </div>
+            <div class="services-opcaity">
+                <div class="services-opcaity__background services-opcaity__position"></div>
+            </div>
+            <div class="formula">
+                <img class="formula__img" src="/img/background-mob/formula2.png" alt="formula2">
+            </div>
+
+            <div class="scroll">
+                <p class="scroll-text">Scroll to find out how our<br> expertise can help you</p>
+                <a href="#!" class="scroll-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="33" height="17"
+                        viewBox="0 0 33 17" fill="none">
+                        <path d="M16.5 7.90104L32.8131 0.313068L16.5 16.6261L0.186932 0.313068L16.5 7.90104Z"
+                            fill="#FF7C40" />
+                    </svg></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="services-bottom services-bottom__element"></div>
+</section>
+		<section class="projects">
+    <div class="projects_margin">
+        <div class="container">
+            <div class="projects-block">
+                <h3 class="projects__title h3">Broad expertise based on<br> decades of experience</h3>
+                <p class="projects__text text-md light-gray">Our services include all types of construction
+                    projects that
+                    you
+                    encounter.</p>
+            </div>
+        </div>
+        <div class="swiper project-cards">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper project-cards__grid">
+                <div class="swiper-slide project-cards-slide">
+                    <div class="project-cards-slide__img">
+                        <span class="project-cards-slide__number">01</span>
+                        <a class="project-cards-slide__link" href="#!">
+                            <p class="project-cards-slide__text">Civil
+                                engineering</p>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="swiper-slide project-cards-slide">
+                    <div class="project-cards-slide__img">
+                        <span class="project-cards-slide__number">02</span>
+                        <a class="project-cards-slide__link" href="#!">
+                            <p class="project-cards-slide__text">Machine
+                                and building foundations</p>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="swiper-slide project-cards-slide">
+                    <div class="project-cards-slide__img">
+                        <span class="project-cards-slide__number">03</span>
+                        <a class="project-cards-slide__link" href="#!">
+                            <p class="project-cards-slide__text">Silo and slipform construction</p>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="swiper-slide project-cards-slide">
+                    <div class="project-cards-slide__img">
+                        <span class="project-cards-slide__number">04</span>
+                        <a class="project-cards-slide__link" href="#!">
+                            <p class="project-cards-slide__text">Assesments, building inspection, concrete maintenance
+                                and
+                                repair</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide project-cards-slide">
+                    <div class="project-cards-slide__img">
+                        <span class="project-cards-slide__number">05</span>
+                        <a class="project-cards-slide__link" href="#!">
+                            <p class="project-cards-slide__text">International cement factory construction</p>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="swiper-slide project-cards-slide">
+                    <div class="project-cards-slide__img">
+                        <span class="project-cards-slide__number">06</span>
+                        <a class="project-cards-slide__link" href="#!">
+                            <p class="project-cards-slide__text">Construction in ongoing operations</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <ul class="projects-list projects-list_margin">
+            <li class="projects-list__item1">
+                <h3 class="project-list__title h3">Benefit from Decades<br> of Life Cycle Know
+                    How</h3>
+            </li>
+
+            <li class="projects-list__item2">
+                <p class="projects-list__text text-md light-gray">Our decade-long permanent
+                    presence on cement
+                    plants
+                    helps us to
+                    design buildings
+                    today that will be ready for whatever tomorrow brings. With our comprehensive planning
+                    methodology
+                    and
+                    building
+                    life cycle experience we anticipate use changes, unexpected utilisation and lifetime expositions
+                    early
+                    on
+                    during
+                    planning. This allows us to design buildings that are flexible, long-lasting, and economically
+                    efficient.
+                </p>
+            </li>
+
+            <li class="projects-list__item3">
+                <h3 class="projects-list__title h3">Comprehensive planning methodology includes
+                    life-cycle know
+                    how</h3>
+            </li>
+
+            <li class="projects-list__item4">
+                <p class="projects-list__text text-md light-gray">Our decade-long permanent
+                    presence on cement
+                    plants allows
+                    us
+                    to anticipate use changes, unexpected utilisation and lifetime expositions early on during
+                    planning.
+                    This allows us to design buildings that are flexible, long-lasting and economically efficient.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+		<section class="clients">
+    <div class="container">
+        <h5 class="clients__title h5">Key Players in the cement industry trust us.</h5>
+
+        <!-- <div class="clients-slider"></div> -->
+
+        <div class="clients-wrapper wrap swiper clients__swiper">
+            <div class="clients-list swiper-wrapper">
+                <div class="clients-list__item swiper-slide"><svg class="clients-icon" width="85" height="24"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M30.34.4h8.5l-.06.07-19.31 22.96-8.35.01L30.34.4Zm20.11 18.47v-4.51h5.04l5.04.01.2.07c.43.15.78.43.97.8.2.4.2.12.2 4.34v3.8h-2.28v-3.2c0-3.46 0-3.33-.15-3.55a.76.76 0 0 0-.2-.16l-.13-.08h-.94l-.95-.02v7.01h-2.21l-.01-3.27-.01-3.26-.09-.14a.74.74 0 0 0-.23-.23l-.14-.09h-.91l-.92-.02v7.01h-2.28v-4.51Zm-19.77 4.28a1.95 1.95 0 0 1-1.39-1.34c-.04-.16-.05-.34-.05-3.03v-2.85l.08-.23c.12-.32.26-.55.5-.79.16-.15.28-.24.45-.32.48-.23.12-.22 4.44-.23h3.86v1.99h-3.36c-3.36 0-3.37 0-3.5.06a.46.46 0 0 0-.2.2l-.08.13v2.1c0 2.08 0 2.1.06 2.22a.7.7 0 0 0 .19.2l.12.09h3.38l3.39.01v1.85h-3.84c-3.66 0-3.85 0-4.05-.06Zm10.18 0a2.04 2.04 0 0 1-.76-.39 1.8 1.8 0 0 1-.52-.69c-.17-.36-.17-.32-.17-3.27 0-3.04-.01-2.91.22-3.38.18-.36.46-.65.81-.83.49-.24.1-.22 4.75-.22h4.12v.99l.02.99h-3.69l-3.69.01-.1.07a.68.68 0 0 0-.17.19l-.07.12v2.1c0 2.08 0 2.1.06 2.22a.7.7 0 0 0 .18.2l.13.09h3.67l3.68.01v1.85h-4.14c-3.93 0-4.14 0-4.33-.06Zm23.63.01a2 2 0 0 1-1.43-1.4c-.05-.17-.05-.35-.05-2.96 0-3.11-.01-2.92.2-3.38.15-.3.54-.69.85-.84.46-.22.08-.2 4.7-.22h4.15v1.99h-3.65c-3.52 0-3.65 0-3.75.05a.46.46 0 0 0-.25.27c-.04.1-.05.38-.05 2.19 0 1.68.01 2.1.04 2.17.05.12.22.27.36.3.07.02 1.28.03 3.7.03h3.6v1.85H68.8c-3.41 0-4.15-.01-4.3-.05Zm9.43-1.04v-1.06l.07-.15c.14-.3.25-.37 1.69-1.28l1.35-.86c0-.02-1.8-1.17-2.43-1.57-.38-.24-.48-.33-.58-.52l-.07-.14v-2.18h2.22v1.34l1.56.98c.86.54 1.59.98 1.61.98.02 0 .76-.45 1.62-1l1.58-1v-1.3h2.22v1.03c0 1 0 1.05-.06 1.2-.1.3-.27.42-1.72 1.33-.73.45-1.32.83-1.31.84 0 .02 2.14 1.4 2.55 1.65.22.14.38.3.45.46.06.13.06.19.06 1.22v1.1l-.57-.01c-.3 0-.8 0-1.1-.02l-.55-.02v-1.31l-1.56-.98-1.6-.99c-.03 0-.76.46-1.63 1l-1.58 1v1.32h-2.22v-1.06ZM43.7 18.86v-.9h5.63v1.79H43.7v-.9Zm23.59 0v-.9h5.62v1.79H67.3v-.9Z"
+                            fill="#293064" />
+                        <path d="M0 23.42 19.18.43h8.51l-.07.08L8.29 23.47H4.13c-3.97 0-4.17 0-4.13-.05Z"
+                            fill="#DF343D" />
+                    </svg></div>
+                <div class="clients-list__item swiper-slide"><svg class="clients-icon" width="86" height="28"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0 2.7V5h2.7V2.5h5.6c0 .2-1.8 2.9-4 6.2-3.8 5.5-4 6-4 7V17h11.4V12.2H9.3v2.5h-6l4.2-6.2c3.6-5.3 4.2-6.3 4.2-7v-1H0v2.2ZM15.1 1.5c0 1 0 1 1 1h1l.2 6.1v6H15v1l.1 1.1 6 .1h5.8V12h-2.4v2.7H20V2.5h2v-2H15v1Z"
+                            fill="#008687" />
+                        <path
+                            d="M.3 22.2c0 .8.2 1.1.5 1.2.3 0 .4 0 .4-.5 0-.6.1-.7.8-.7.8 0 .9-.1-.8 2.4-.7 1-1.2 2-1.2 2.3 0 .4.1.4 2.4.4H5v-1c0-1 0-1.2-.6-1.2-.4 0-.5.2-.5.6 0 .4-.2.6-.8.6-1 .1-1 0 .7-2.5a7 7 0 0 0 1.1-2.2c0-.3-.5-.4-2.3-.5H.2v1.1ZM46.4 21.5c0 .2 0 .4.3.6.5.4.6 4.3 0 4.3-.2 0-.4.1-.3.4 0 .3.3.4 1.3.5 1.2 0 1.3 0 1.3-.4 0-.3 0-.5-.2-.5-.1 0-.3-.3-.3-.5-.2-.7 0-.6 1 .5.6.7 1 1 1.5 1s.7-.2.7-.5-.1-.5-.3-.5c-.2 0-.6-.3-.9-.7L50 25l.6-.6.8-.5c.2 0 .3-.2.3-.5 0-.4-.2-.4-1.4-.4s-1.5 0-1.4.3c0 .2.2.5.4.6.2.2.2.3-.2.5-.5.3-.5.2-.6-1.5v-1.7h-1c-.6 0-1 0-1.1.3ZM54.4 21.7c0 .3.1.5.3.5.3 0 .4.4.4 2 0 1.5 0 2-.4 2-.2 0-.3.1-.3.5v.6h5.1V26c0-1.3 0-1.5-.5-1.5-.3 0-.4.2-.5 1 0 .8-.2.8-.9 1h-.8v-2c0-1.3.1-2.2.3-2.2.1 0 .2-.2.2-.5 0-.5-.1-.6-1.5-.6-1.3 0-1.4 0-1.4.6ZM61 21.5c0 .6.4.8.9.4.4-.4.2-.9-.5-.9-.3 0-.4.2-.4.5ZM62.8 21.3c-.2.3.5 1 .8.8.2 0 .3-.4.3-.6 0-.5-.8-.7-1.1-.2ZM65.1 21.7c0 .3.2.5.4.5.3 0 .3.4.3 2 0 1.5 0 2-.3 2-.2.2-.4.4-.4.7 0 .4.2.4 2 .4 1.6 0 2-.1 2.4-.5.6-.6.7-2.5.1-3.3-.3-.5-.6-.6-1.5-.5l-1 .1v-2h-1c-.9 0-1 0-1 .6Zm3.5 3c.1.3 0 .8-.2 1.1-.4.6-.4.6-.9.2-.5-.5-.6-1.2 0-1.7.4-.4 1-.2 1.1.4ZM80 21.5c0 .2 0 .4.3.6.6.4.6 4.3 0 4.3-.2 0-.3.1-.3.4 0 .3.4.4 1.4.5 1.2 0 1.3 0 1.3-.4 0-.3-.1-.5-.3-.5l-.2-.6c0-.4.1-.4.9.5.6.8 1 1 1.5 1 .6 0 .8 0 .8-.4 0-.3-.2-.5-.4-.5-.1 0-.5-.3-.8-.7l-.5-.7.5-.6.9-.5c.1 0 .3-.2.3-.5 0-.4-.2-.4-1.4-.4s-1.3 0-1.3.4c0 .3.1.5.2.5.2 0 .2.2 0 .4-.5.7-.7.4-.7-1.4V21h-1c-.6 0-1 .1-1.2.4ZM29 21.8c-.4.3-.7.7-.7.9 0 .1-.1.3-.3.3l-.2.4c0 .3.1.5.2.5.2 0 .3.7.3 1.5 0 1.6.3 2 1.4 1.9.5 0 .7-.2.7-.6 0-.4 0-.6-.3-.6s-.3-.2-.3-1c0-.9 0-1.2.3-1.2.2 0 .4-.2.4-.5 0-.2-.2-.4-.4-.4s-.3-.4-.4-.9v-.8l-.7.5ZM5.9 23.6c-1.2 1.5-.3 3.7 1.6 3.7.9 0 2-.5 2-1 0-.3-1-.4-1.4-.1-.4.2-.7.2-1 0-.9-.6-.6-.8 1-.8 1 0 1.7-.1 1.7-.2 0-.6-.6-1.8-1-2L7.3 23c-.7 0-1 .1-1.4.6Zm2.2.7c.1.3 0 .4-.7.4s-.8 0-.6-.4c.2-.2.5-.4.8-.4.2 0 .4.2.5.4ZM10 23.5c0 .2.2.4.4.4.5 0 .5 2.2 0 2.4-.2 0-.4.3-.4.6 0 .4.2.4 1.3.4 1.2 0 1.4 0 1.4-.4 0-.3-.2-.6-.4-.6-.3-.1-.3-.4-.3-1 0-.8.2-1 .6-1 .4 0 .4.2.5 1.5v1.5h1c.9 0 1 0 1-.4 0-.3-.1-.6-.4-.6-.5-.2-.3-2 .2-2 .4-.2.4 0 .5 1.4v1.5h1.1c1 .2 1 .1 1-.3 0-.3-.1-.5-.3-.5-.3 0-.4-.3-.4-1.4 0-.8 0-1.6-.3-1.8-.3-.3-1.3-.3-1.9 0H14l-2-.2c-1.8 0-2 0-2 .5ZM18.4 23.6c-.8.8-.8 2.3 0 3.1.8.8 2.3.9 3 .2.6-.5.6-.6.3-.8-.5-.3-.9-.3-1 0-.4.4-1.2.3-1.4-.2-.3-.5-.2-.5 1.3-.5.9 0 1.6-.1 1.6-.2 0-.6-.6-1.8-1-2-.8-.5-2.2-.3-2.8.4Zm2.2.7c0 .3 0 .4-.6.4-.7 0-1-.3-.6-.6.3-.3 1-.2 1.2.2ZM22.4 23.5c0 .2.2.4.4.4.3 0 .4.3.4 1.2 0 1-.1 1.3-.4 1.3-.2 0-.4.2-.4.5 0 .4.2.4 1.4.4 1.1 0 1.3 0 1.3-.4 0-.3-.2-.6-.4-.6-.2-.1-.3-.4-.3-1 0-.8.2-1 .7-1 .5-.2.5 0 .5 1.4v1.6h1c.8 0 1 0 1-.4 0-.3-.1-.5-.3-.5-.1 0-.2-.5-.2-1.1a6 6 0 0 0-.3-1.7c-.2-.6-.3-.6-2.3-.6-1.9 0-2 0-2 .5ZM30.7 23.4c0 .3.1.5.2.5.2 0 .5.8.8 1.7.5 1.6.6 1.7 1.2 1.7s.7 0 1-1.2c.3-1.4.5-1.4.9.1.2.9.3 1 .9 1 .7 0 .7-.1 1.2-1.6.3-1 .6-1.7.8-1.7.2 0 .3-.2.3-.5 0-.4-.1-.4-1-.4-1 0-1.2 0-1.2.4 0 .3.1.5.3.6.3 0 0 1.4-.3 1.4l-.2-.3-.3-1.2c-.2-.8-.3-1-.8-.9-.6 0-.7.3-1 1.3-.5 1.1-.5 1.2-.7.6l.1-1.3.3-.6h-1.3c-1 0-1.2 0-1.2.4ZM38.8 23.4c-1.5 1.5-.6 4 1.4 4 .6 0 1.2-.3 1.6-.6l.7-.5-.6-.2c-.3-.2-.7-.1-1.1 0-.6.4-1.3.2-1.3-.3 0-.3.3-.4 1.5-.4h1.5l-.2-.8c0-.4-.4-1-.6-1.2-.7-.6-2.3-.6-3 0Zm2.1 1c0 .2-.1.3-.6.3-.8 0-1-.3-.6-.6.2-.3 1.1-.1 1.2.2ZM42.9 23.4c0 .3.2.5.3.5l.2 1.2c0 1 0 1.3-.3 1.3-.2 0-.3.1-.2.5 0 .4.3.4 1.4.4 1.1 0 1.3 0 1.3-.4 0-.3-.2-.5-.4-.5s-.3-.3-.3-.7c0-.8.5-1.5 1.1-1.5.2 0 .3-.3.3-.6 0-.8-.5-.8-1.2-.2-.4.3-.5.3-.5 0s-.2-.4-1-.4c-.7 0-.8 0-.7.4ZM60 23.4c0 .3.1.5.2.5.2 0 .3.6.3 1.3 0 2 .2 2 2.4 2 1.8.1 2 0 2-.4 0-.2-.1-.4-.3-.4-.1 0-.2-.8-.2-1.7V23h-1c-.8 0-1 0-1 .4 0 .3.2.5.3.5.1 0 .2.4.2 1 0 .8-.2 1.1-.5 1.2-.4 0-.5-.1-.5-1.5V23h-1c-.7 0-1 0-1 .4ZM71.2 23.4c-1 1-1 2.5 0 3.5.7.7 2.2.6 3-.1l.8-.6-.6-.2c-.3-.1-.7 0-.9.1-.4.4-1.6.1-1.6-.3 0-.3.4-.4 1.5-.4 1.4 0 1.5 0 1.5-.6 0-.3-.2-.8-.5-1.2-.5-.5-.7-.6-1.6-.6-.8 0-1.2.1-1.6.4Zm2.2 1c0 .2-.2.3-.7.3-.7 0-1-.3-.6-.6.3-.3 1.1-.1 1.3.2ZM76 23.6c-.7.6-.9 2.1-.3 2.8.8 1 2.4 1.2 3.4.4.8-.6.8-.8 0-1.1-.4-.2-.5-.2-.7 0 0 .3-.4.4-.8.4-.6-.1-.7-.2-.7-1 0-.7.1-.8.6-.9.3 0 .8.1 1 .3.7.6 1.2.3 1.2-.7V23h-1.5c-1.4 0-1.7 0-2.2.6Z"
+                            fill="#000" />
+                    </svg></div>
+                <div class="clients-list__item swiper-slide"><svg class="clients-icon" width="93" height="18"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M21.7 8.93h3.14c1.33 0 2.9-.38 2.9-2.16 0-.9-.5-1.44-1.5-1.65V5.1c.83-.28 1.31-.8 1.31-1.74 0-1.28-1.04-1.89-2.42-1.89H21.7v7.46Zm1.98-3.17h.61c.69 0 1.47.08 1.47.9 0 .75-.76.86-1.49.86h-.59V5.76Zm0-2.88h.58c.66 0 1.3.07 1.3.75 0 .63-.67.79-1.32.79h-.56V2.88Z"
+                            fill="#1A171B" />
+                        <path
+                            d="M34.47 3.36h-1.92v2.35c0 1.2-.4 1.74-1.2 1.74-.52 0-.88-.35-.88-1.4V3.36h-1.93v3.47c0 1.16.61 2.22 2.13 2.22.87 0 1.64-.35 2.03-1.15h.02v1.03h1.75V3.36ZM35.5 8.93h4.8V7.52h-2.6l2.55-2.62V3.36h-4.69v1.41h2.49L35.51 7.4v1.54ZM41.17 8.93h4.78V7.52h-2.58l2.54-2.62V3.36h-4.69v1.41h2.5L41.16 7.4v1.54Z"
+                            fill="#1A171B" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M47.1 8.93h1.93V3.36h-1.92v5.57Zm1.93-7.89h-1.92v1.41h1.92v-1.4Z" fill="#1A171B" />
+                        <path
+                            d="M60.24 1.47h-1.99v4.3c0 .98-.27 1.81-1.28 1.81-1.02 0-1.28-.83-1.28-1.82V1.47H53.7V6.1c0 2.04 1.33 2.95 3.27 2.95s3.27-.91 3.27-2.95V1.47ZM61.23 8.93h1.92V6.58c0-1.2.4-1.74 1.2-1.74.52 0 .89.35.89 1.4v2.69h1.92V5.46c0-1.16-.61-2.23-2.13-2.23-.87 0-1.64.36-2.03 1.16h-.02V3.36h-1.75v5.57Z"
+                            fill="#1A171B" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M68.34 8.93h1.92V3.36h-1.92v5.57Zm1.92-7.89h-1.92v1.41h1.92v-1.4Z" fill="#1A171B" />
+                        <path
+                            d="M76.02 3.54a3.45 3.45 0 0 0-1.53-.3c-1.83 0-3.23 1.06-3.23 2.91 0 1.84 1.4 2.9 3.23 2.9.52 0 1.1-.08 1.57-.24l-.04-1.43c-.32.17-.76.26-1.2.26-.83 0-1.58-.57-1.58-1.46 0-.96.64-1.54 1.48-1.54.46 0 .8.1 1.16.31l.14-1.4Z"
+                            fill="#1A171B" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M82.55 6.7v-.35c0-1.65-.75-3.12-2.81-3.12-1.73 0-2.98 1.07-2.98 2.9 0 1.85 1.4 2.93 3.23 2.93.72 0 1.42-.11 2.04-.36V7.35a3.6 3.6 0 0 1-1.7.42c-.93 0-1.52-.3-1.63-1.06h3.85Zm-3.87-1.08c.04-.65.37-1.17 1.07-1.17.77 0 1.07.52 1.07 1.17h-2.14Z"
+                            fill="#1A171B" />
+                        <path
+                            d="M83.52 8.93h1.92V6.58c0-1.2.4-1.74 1.09-1.74.54 0 .77.47.77 1.1v2.99h1.92V6.58c0-1.2.4-1.74 1.09-1.74.54 0 .77.47.77 1.1v2.99H93V5.65c0-1.5-.36-2.42-1.96-2.42a2.2 2.2 0 0 0-1.98 1.07c-.3-.72-.95-1.07-1.74-1.07-.88 0-1.65.36-2.03 1.16h-.02V3.36h-1.75v5.57Z"
+                            fill="#1A171B" />
+                        <path
+                            d="M2.7 5.7H0V2.56s1.71.1 3.19-.68A2.33 2.33 0 0 0 4.47 0h12.21v10.56c0 5.03-.67 6.48-6.95 6.48-6.42 0-7.02-1.45-7.02-6.48V5.7Z"
+                            fill="#0071B9" />
+                        <path d="M7.69 0h4.01v13.03H7.7V0Z" fill="#1A171B" />
+                        <path
+                            d="M10.97.33H8.42v.98h2.55V.33ZM8.42 6.91v1.14h1.75v.28H8.42v1.18h1.62c.8 0 .96-.1.96-1.3s-.17-1.3-.96-1.3H8.42Z"
+                            fill="#fff" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M10.96 12.37v-1.94c0-.56-.32-.73-.66-.73-.51 0-.56.32-.59.65-.03-.32-.22-.63-.65-.63-.39 0-.64.17-.64.68v1.97h2.54ZM10 11.34v-.42c0-.15.08-.2.19-.2.1 0 .18.05.18.2v.42H10Zm-.91 0v-.4c0-.15.06-.2.18-.2.11 0 .19.05.19.21v.4h-.37Z"
+                            fill="#fff" />
+                        <path
+                            d="M10.96 3.97v-2.5h-.84v.96l-.92-.95h-.78v2.5h.92v-1l1.05.99h.57ZM10.96 6.69v-2.5h-.84v.96L9.2 4.2h-.78v2.5h.92v-1l1.05.99h.57Z"
+                            fill="#fff" />
+                    </svg></div>
+                <div class="clients-list__item swiper-slide"><svg class="clients-icon" width="84" height="27"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M5.2 13.86v-.05c0-.19-.14-.34-.34-.34H1.65c-.9 0-1.65-.73-1.65-1.65V7.3c0-.9.73-1.65 1.65-1.65h3.21c.2 0 .34-.15.34-.34V.8c0-.2.15-.34.34-.34h1.92c.2 0 .34.14.34.34v5.8c0 .9-.73 1.66-1.65 1.66H2.94c-.2 0-.34.15-.34.34V10.53c0 .2.15.34.34.34H6.18c.9 0 1.65.73 1.65 1.66V20.96c0 .2.14.34.34.34H15.29c.2 0 .34-.14.34-.34v-4.52c0-.2.15-.34.34-.34h1.92c.2 0 .34.15.34.34v5.81c0 .9-.73 1.65-1.65 1.65H6.86c-.9 0-1.66-.73-1.66-1.65v-8.39Zm15.64 0v-.05c0-.19-.15-.34-.34-.34h-3.21c-.9 0-1.66-.73-1.66-1.65V3.4c0-.2-.14-.34-.34-.34H13.37c-.2 0-.34.14-.34.34V18.3c0 .2-.14.34-.34.34h-1.92a.33.33 0 0 1-.34-.34V2.1c0-.9.73-1.66 1.65-1.66h4.53c.9 0 1.65.73 1.65 1.66V10.53c0 .2.14.34.34.34h3.21c.9 0 1.65.73 1.65 1.66v11c0 .2-.14.35-.34.35H21.2a.33.33 0 0 1-.34-.34v-9.68h-.02Z"
+                            fill="#43B02A" />
+                        <path
+                            d="M37.2 24.49c0 1.02-.9 1.97-2.46 1.97h-.46c-1.53 0-2.43-.78-2.55-1.6l-.03-.16 1.66-.14.07.1c.1.2.34.31.75.31h.37c.46 0 .85-.24.85-.75v-.6c-.34.21-.73.3-1.12.3h-.7c-1.22 0-1.88-1.01-1.88-2.08v-2.85c0-1.1.66-2.09 1.88-2.09h.6c.59 0 1.15.24 1.6.66l.2-.59h1.22v7.52ZM35.4 22v-3.16a1.18 1.18 0 0 0-.83-.37h-.39c-.36 0-.7.24-.7.76v2.38c0 .5.32.75.68.75h.36c.32 0 .66-.14.88-.36ZM41.91 18.55h-.85c-.44 0-.9.18-1.19.47v4.84H38.1V17h1.21l.2.66a2.8 2.8 0 0 1 1.82-.73h.58v1.63ZM49.7 2.97h-1.07c-2.2 0-3.43 1.39-3.43 2.9v4.2c0 1.5 1.26 2.9 3.43 2.9h1.07c2.09 0 3.28-1.4 3.28-2.9v-4.2c0-1.51-1.2-2.9-3.28-2.9Zm.75 6.69c0 .73-.49 1.07-1.07 1.07h-.6c-.6 0-1.08-.34-1.08-1.07v-3.4c0-.71.49-1.08 1.07-1.08h.6c.6 0 1.08.37 1.08 1.07v3.4Zm-9-6.69h-.68c-.68 0-1.33.22-1.92.56V.44h-2.53v12.4h2.53v-7.1c.34-.34.8-.56 1.3-.56h.36c.55 0 1 .32 1 1.05v6.61h2.52v-7c0-1.5-.9-2.87-2.58-2.87ZM34.23.44h-1.72l-.76 2.63h-1.12V5.3h1.07v7.56h2.53V5.3h1.34V3.07h-1.34V.44Zm45.13 5.47V5.7c0-.34.36-.48.7-.48h.54c.41 0 .8.27.8.8v.17h2.36v-.27A2.85 2.85 0 0 0 80.74 3h-1c-1.92 0-3 1.21-3 2.55v.5c0 2.88 4.83 2.95 4.83 3.9v.2c0 .38-.41.58-.95.58h-.6c-.57 0-1.03-.27-1.03-.8v-.2h-2.5v.39c0 1.46 1.14 2.84 3.23 2.84h1.07c2 0 3.21-1.29 3.21-2.65v-.43c.02-3.1-4.64-2.97-4.64-3.97Zm-6.88-2.94h-.86c-2.09 0-3.28 1.46-3.28 3.07v.24h2.53v-.12c0-.64.41-.95.9-.95h.49c.5 0 .95.36.95 1.07v.58l-1.93.22c-1.67.2-3.35 1-3.35 2.65v.75c0 1.3.97 2.5 2.75 2.5h.8c.75 0 1.55-.33 2.24-.92l.26.8h1.73V6.09c.02-1.65-1.17-3.1-3.23-3.1Zm.75 7.2c-.39.36-1 .56-1.58.56h-.46c-.37 0-.7-.22-.7-.64V9.8c0-.46.55-.8 1.18-.87l1.56-.22v1.46Zm-8.78-7.2h-.68c-.92 0-1.8.37-2.5 1-.42-.6-1.1-1-2-1h-.68c-.9 0-1.72.37-2.45.95l-.27-.85h-1.73v9.77h2.5v-7.1c.35-.34.81-.56 1.3-.56h.36c.56 0 1 .32 1 1.05v6.61h2.53V5.72c.31-.32.8-.54 1.29-.54h.36c.54 0 1 .32 1 1.05v6.61H67v-7c.02-1.5-.88-2.87-2.56-2.87ZM44.51 17v4.67c0 .5.32.73.71.73h.27c.34 0 .68-.15.9-.37V17h1.77v6.88h-1.21l-.2-.58c-.48.41-1.1.65-1.7.65h-.49c-1.19 0-1.8-.95-1.8-2.04V17h1.75ZM50.28 17l.17.56a2.4 2.4 0 0 1 1.55-.63h.69c1.21 0 1.87 1 1.87 2.09v2.87c0 1.09-.66 2.09-1.87 2.09h-.66c-.41 0-.83-.13-1.2-.34v2.84h-1.77V17h1.22Zm.56 1.85V22c.22.22.53.36.85.36h.36c.4 0 .7-.24.7-.75v-2.38c0-.52-.3-.76-.7-.76h-.36c-.3 0-.63.15-.85.37ZM56.57 17l.17.56a2.4 2.4 0 0 1 1.56-.63h.68c1.22 0 1.87 1 1.87 2.09v2.87c0 1.09-.65 2.09-1.87 2.09h-.63c-.41 0-.83-.13-1.2-.34v2.84h-1.77V17h1.2Zm.56 1.85V22c.22.22.54.36.85.36h.37c.39 0 .7-.24.7-.75v-2.38c0-.52-.31-.76-.7-.76h-.37c-.29 0-.63.15-.85.37ZM63.43 21.04v.6c0 .51.34.76.75.76h.42c.41 0 .75-.22.75-.7v-.06h1.78v.34c0 1.02-.83 1.97-2.31 1.97h-.76c-1.53 0-2.4-.97-2.4-2.04v-2.94c0-1.07.87-2.04 2.4-2.04h.76c1.46 0 2.3.97 2.3 2.04v2.07h-3.69Zm0-1.37h1.92v-.43c0-.49-.34-.76-.75-.76h-.42c-.4 0-.75.25-.75.76v.43Z"
+                            fill="#53565A" />
+                    </svg></div>
+                <div class="clients-list__item swiper-slide"><svg class="clients-icon" width="85" height="14"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#a)" fill="#0073AB">
+                            <path
+                                d="M.83 7v6.02h15.23V1h-4.02v10.8l-.8-.04-.79-.04-.04-5.37L10.38 1H6.51v10.79H4.85V.98H.84v6.03ZM18 2.65V4.3h3.87V.99H18v1.66ZM23.81 3.13v2.15h-1.38v1.38h1.39v6.36h4V6.66h1.39v6.36h4.01V6.66h1.53V5.28h-.68c-.49 0-.7-.06-.76-.22a17.6 17.6 0 0 1-.09-2.15V1h-3.94V5.2l-.72.04-.73.04V.99h-4.01v2.14ZM46.93 7v6.02h3.86l.04-1.42.05-1.41.66-.05.65-.04v2.92h3.88V8.46h-1.25c-.68 0-1.25-.06-1.25-.13s.67-.79 1.5-1.59l1.48-1.46h-2.49l-1.55 1.45c-.85.8-1.58 1.45-1.62 1.45-.04 0-.08-1.62-.08-3.6V.98h-3.88v6.03ZM57.73 2.65V4.3h3.87V.99h-3.87v1.66ZM80.3 3.13v2.15H74.75v7.74h9.4V1H80.3v2.14Zm0 6.09v2.56h-1.53V6.66h1.52v2.56ZM18 9.15v3.87h3.87V5.28H18v3.87ZM35.58 8.08c0 1.55-.04 3.3-.08 3.88l-.1 1.06H45v-1.24h-5.4v-1.11H45v-5.4h-9.42v2.81Zm5.5-.15-.03 1.29-.72.04-.74.04V6.66h1.54l-.04 1.27ZM57.73 9.15v3.87h3.87V5.28h-3.87v3.87ZM63.27 9.15v3.87h3.87V6.66h1.94v6.36h4.01V5.28h-9.82v3.87Z" />
+                        </g>
+                        <defs>
+                            <clipPath id="a">
+                                <path fill="#fff" transform="translate(0 .44)" d="M0 0h85v13H0z" />
+                            </clipPath>
+                        </defs>
+                    </svg></div>
+                <div class="clients-list__item swiper-slide"><svg class="clients-icon" width="84" height="13"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#a)">
+                            <path
+                                d="M10.23 3.25C10.07 1.01 8.44 0 5.07 0 2.04 0 .22 1.2.22 3.14c0 1.08.45 1.9 1.32 2.37.64.35 1.27.54 3.04.92 1.87.38 2 .44 2.03.94.03.53-.45.84-1.28.84-.99 0-1.44-.35-1.55-1.2H0c.21 2.45 1.96 3.65 5.39 3.65 3.16 0 5.12-1.36 5.12-3.56 0-1.84-1.07-2.68-4.1-3.22-2.04-.36-2.3-.47-2.3-.97 0-.4.38-.61 1.11-.61.91 0 1.25.23 1.39.94l3.62.01Zm8.59 2.1c0 1.48-.6 2.25-1.77 2.25-1.15 0-1.75-.81-1.75-2.32 0-1.47.65-2.33 1.75-2.33 1.2 0 1.77.78 1.77 2.4Zm3.99.06c0-3.25-1.8-5.4-4.51-5.4-1.33 0-2.23.4-3.03 1.36V.3h-3.83V13h3.99V9.3c.8.97 1.72 1.39 3 1.39 2.67 0 4.38-2.06 4.38-5.28Zm4.64-1.2c.21-1.15.87-1.74 1.92-1.74 1.1 0 1.75.59 1.84 1.75h-3.76Zm-.01 1.95h7.67v-.27c0-3.56-2.24-5.89-5.67-5.89-3.43 0-5.82 2.24-5.82 5.43 0 3.14 2.35 5.23 5.88 5.23 2.21 0 4.03-.9 4.94-2.35l-3.02-1.37c-.6 1.07-1.2 1.23-1.95 1.23-1.23.02-1.95-.7-2.03-2.01ZM40.08.27h-3.83V10.4h3.99V4.83c0-1.12.56-1.74 1.56-1.74.93 0 1.36.5 1.36 1.66v5.65h4V4.2c0-1.43-.2-2.2-.72-2.87A3.87 3.87 0 0 0 43.37 0c-1.4 0-2.35.44-3.3 1.52l.01-1.25Zm12.57 0h-3.83V10.4h3.99V4.83c0-1.12.56-1.74 1.57-1.74.92 0 1.35.5 1.35 1.66v5.65h4V4.2c0-1.43-.2-2.2-.72-2.87A3.87 3.87 0 0 0 55.94 0c-1.4 0-2.35.44-3.29 1.52V.27Zm11.99 3.95c.2-1.16.87-1.75 1.92-1.75 1.1 0 1.75.59 1.83 1.75h-3.75Zm-.03 1.94h7.67v-.27c0-3.56-2.24-5.89-5.67-5.89-3.43 0-5.82 2.24-5.82 5.43 0 3.14 2.35 5.23 5.88 5.23 2.21 0 4.03-.9 4.94-2.35L68.6 6.95c-.6 1.07-1.19 1.24-1.95 1.24-1.24 0-1.96-.71-2.04-2.03ZM84 4.38v-.2c0-1.42-.2-2.2-.71-2.86A3.87 3.87 0 0 0 80.22 0c-1.4 0-2.27.38-3 1.52V.27H73.4V10.4h3.99V4.83c0-1.12.26-1.74 1.27-1.74.93 0 1.36.5 1.36 1.66V6.2L84 4.38Z"
+                                fill="#004B91" />
+                        </g>
+                        <defs>
+                            <clipPath id="a">
+                                <path fill="#fff" d="M0 0h84v13H0z" />
+                            </clipPath>
+                        </defs>
+                    </svg></div>
+                <div class="clients-list__item swiper-slide"><svg class="clients-icon" width="84" height="47"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="client-icon" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7.74 30.02h3.54V5.8H7.74v24.23ZM71.27 36.93h2.38v-7.42c0-2.44.7-3.39 1.39-3.39.67 0 1.25.77 1.25 2.87v7.94h2.35v-7.42c0-2.42.68-3.35 1.38-3.35.7 0 1.25.79 1.25 2.83v7.96h2.35V27.9c0-2.54-.49-3.9-1.22-4.74-.4-.48-.96-.78-1.52-.78-1 0-1.93.8-2.55 2.2-.56-1.4-1.46-2.19-2.32-2.19-.73 0-1.73.7-2.36 2.06v-1.88h-2.38v14.35ZM69.6 29.76c0-4.23-1.74-7.36-4.2-7.36-2.49 0-4.2 3.1-4.2 7.39 0 4.23 1.78 7.37 4.18 7.37 1.55 0 3.05-1.44 3.9-3.74l-1.56-1.76c-.58 1.54-1.38 2.27-2.17 2.27-1.03 0-1.9-1.35-2.02-3.3h6.05c.03-.3.03-.6.03-.87Zm-5.93-1.96c.3-1.54 1.02-2.36 1.72-2.36s1.4.82 1.68 2.36h-3.4ZM59.28 35.84v-5.89c-1.08 1.71-2.54 2.63-3.75 2.63-2.38 0-4.26-2.93-4.26-7.73 0-4.71 1.89-7.68 4.24-7.68 1.28 0 2.7.94 3.75 2.6V13.9a5.59 5.59 0 0 0-3.64-1.46c-4.08 0-7.14 5-7.14 12.5 0 4.57 1.18 8.17 3 10.3a5.42 5.42 0 0 0 4.07 2.08 5.5 5.5 0 0 0 3.73-1.48ZM41.07 30.05h2.83V24.2c0-2.18.27-2.86.56-3.37.38-.64.94-1.06 1.61-1.06.4 0 .79.16 1.14.44v-4.63c-1.17.14-2.38.99-3.32 2.51v-2.4h-2.83v14.36h.01ZM40.1 22.86c0-4.24-2.12-7.37-5.07-7.37-3.01 0-5.11 3.1-5.11 7.4 0 4.24 2.15 7.38 5.05 7.38 1.88 0 3.7-1.44 4.73-3.74l-1.9-1.78c-.69 1.55-1.65 2.27-2.62 2.27-1.23 0-2.3-1.35-2.43-3.29h7.3c.03-.3.05-.59.05-.87Zm-7.2-1.97c.36-1.55 1.23-2.38 2.09-2.38.85 0 1.69.83 2.03 2.38H32.9ZM25 30.05h2.87V18.86h1.75v-3.65H27.9V11.4H25v3.82h-1.03v3.65H25v11.2ZM13.37 30.05h2.89v-6.74c0-3.03 1.02-4.1 2.01-4.1.93 0 1.75.88 1.75 3.44v7.4h2.87v-7.4c0-3.33-.36-4.44-.74-5.2-.57-1.2-1.51-1.94-2.63-1.94-.76 0-1.28.2-2.09.84-.43.33-.82.76-1.19 1.25V15.7h-2.87v14.36Z"
+                            fill="#0A0A0A" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M80.25 19.5h3.41V5.8H71.22a20.33 20.33 0 0 1 2.24 2.04l1.78-1.54c1.2 1.26 2.2 2.65 2.98 4.19l-2.05 1.45a15.03 15.03 0 0 1 1.24 4.4l2.53-.88c.21 1.12.32 2.27.32 3.43l-.01.62ZM65.49.26A18.11 18.11 0 0 1 70.73 2l-1.47 2.54a15.45 15.45 0 0 0-4.16-1.37l.4-2.92Zm-8.6.6C58.65.28 60.5 0 62.42 0v2.93c-1.6 0-3.14.24-4.6.7L56.88.85ZM49.3 5.53l.2-.2a18.09 18.09 0 0 1 4.18-3.12l1.36 2.6a15.08 15.08 0 0 0-3.71 2.85L49.3 5.53Zm.9 4.6-3.94-2.1.2 4.99 3.73-2.88ZM17.35 46.9a17.74 17.74 0 0 0 5.49-.62l-.91-2.8c-1.4.37-2.86.54-4.36.48l-.22 2.94Zm-9.95-2.77a17.93 17.93 0 0 0 5 2.55l.9-2.79a15.6 15.6 0 0 1-4.14-2.1l-1.76 2.34ZM1.62 37.1l.13.25c.8 1.6 1.78 3.02 2.97 4.3l2.11-2.02a15.3 15.3 0 0 1-2.6-3.88l-2.6 1.35Zm2.79-5.01L0 32.83l1.78-4.65 2.63 3.9ZM27.06 43.9a17.66 17.66 0 0 0 3.88-3.93l-2.46-1.6a15.06 15.06 0 0 1-3.08 3.1l1.66 2.43ZM84 19.73 84 5.48H62.1v14.35l21.89-.1Z"
+                            fill="#009FE3" />
+                    </svg></div>
+                <div class="clients-list__item swiper-slide"><svg class="clients-icon" width="86" height="7" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.68.4h-1.6v6.02h1.6V.4ZM10.19 2.8H7.6V1.65h2.6V.4H6.06v6.02h4.13V5.18H7.6V4h2.6V2.79ZM5.11.4H3.54v2.35H0v3.67h1.57V4.04h1.97v2.38h1.57V.4ZM1.57.4H0v1.56h1.57V.4ZM31.88 2.8h.78c.41 0 .58-.06.7-.25a.68.68 0 0 0-.03-.78c-.18-.22-.48-.22-.74-.24h-.7v1.27Zm.79 2.44c.2 0 .33-.02.43-.06a.55.55 0 0 0 .38-.56c0-.06 0-.2-.1-.36-.19-.28-.51-.3-.82-.3h-.68v1.27h.79Zm-.79 1.15h-1.52v-6h2.5c.86.01 1.3.14 1.63.42.22.18.48.5.48 1.17 0 .12 0 .2-.02.31-.03.15-.12.6-.51.88-.14.1-.27.16-.42.22.14.05.46.16.71.46.23.27.34.59.34.94 0 .83-.49 1.2-.78 1.37-.38.2-.81.25-1.62.24h-.79ZM16 5.21c.57-.02 1.11-.14 1.53-.62.18-.2.43-.58.43-1.23 0-.51-.17-.85-.29-1.02-.4-.61-1.04-.75-1.75-.75l-.7.01v3.6l.78.01Zm-.78 1.2h-1.6v-6h1.81c.28-.02.56 0 .83 0h.52c.28.03 1.04.09 1.71.6.43.31 1.11 1.03 1.1 2.34 0 .19 0 .6-.18 1.1a2.94 2.94 0 0 1-1.9 1.81c-.3.1-.66.16-1.32.16H16l-.78-.02Zm11.73-6h-1.58v6h4.2v-1.3h-2.62V.4Zm-2.49 2.38h-2.59V1.65h2.6V.4h-4.13v6.02h4.12V5.18h-2.59V4h2.6V2.79Zm15.43 0H37.3V1.65h2.6V.4h-4.14v6.02h4.13V5.18H37.3V4h2.6V2.79ZM49.9 5.15V3.18h1.54l-.06 2.92c-.24.08-.48.13-.72.19a7.29 7.29 0 0 1-1.5.2h-.04c-.8 0-1.53-.19-2.16-.7a2.86 2.86 0 0 1-1.07-2.31A3.1 3.1 0 0 1 49.24.34c.95 0 1.6.23 1.96.36l-.4 1.1-.37-.14c-.3-.1-.66-.16-.98-.16-.13 0-.49.02-.86.18-1.01.45-1.1 1.49-1.1 1.8a1.77 1.77 0 0 0 1.82 1.81c.27 0 .49-.07.6-.14Zm-7.6-2.17V1.54h.7c.11.01.25.01.36.05.45.12.49.51.49.66 0 .25-.1.4-.17.47-.2.2-.42.23-.69.25H42.31Zm3.51 3.42L44.76 4.5c-.17-.25-.35-.56-.63-.72a.35.35 0 0 0-.17-.07c.1-.01.18-.02.28-.05.17-.04.32-.12.38-.14.17-.1.31-.21.43-.35.23-.29.34-.7.34-1.06.01-.47-.17-.8-.27-.96-.47-.7-1.31-.75-2.07-.75-.54 0-1.08-.02-1.6 0h-.67V6.4h1.53V4.14l.22.01c.12 0 .23.03.32.08.14.07.25.26.4.56l.82 1.61h1.74Zm34.66-6V1h1.92v5.44h.76V1h1.91V.41h-4.59Zm-5.53.23v5.8h.68V2.69l-.01-.57-.06-.73c.23.42.26.47.7 1.07l1.22 1.66 1.71 2.37.59-.25V.41h-.68v3.8c0 .52 0 .74.08 1.24a6.6 6.6 0 0 0-.84-1.33c-.39-.55-.8-1.09-1.2-1.63L75.58.36l-.64.27ZM70.68.41v6.04h3.25v-.61h-2.5V3.65h2.37v-.6h-2.37V.99h2.44V.41h-3.19Zm-7.25 0-1.07 5.95.7.12.3-1.78c.09-.56.2-1.12.28-1.68.1-.6.16-1.22.23-1.83.08.3.15.6.24.89l.2.52c.2.52.37 1.04.56 1.57l.82 2.28h.7c.37-1.01.75-2.02 1.14-3.02.06-.2.14-.4.22-.6l.28-.72.32-.94c0 .66.05 1.02.22 2.22.16 1.04.3 2.08.47 3.13l.71-.15-.96-5.96h-.74l-.65 1.65c-.17.43-.32.87-.5 1.3-.15.41-.32.8-.48 1.22-.13.35-.25.72-.37 1.09l-.21-.72c-.11-.34-.25-.67-.37-1.01l-.42-1.22c-.26-.77-.55-1.53-.82-2.3h-.8Zm-5.15 0v6.04h3.25v-.61h-2.51V3.65h2.38v-.6h-2.37V.99h2.44V.41h-3.2Zm-.82.5c-.13-.07-.26-.15-.4-.2a4.22 4.22 0 0 0-1.59-.33 3.1 3.1 0 0 0-2.49 1.14 3.13 3.13 0 0 0-.68 1.97c0 .89.35 1.76 1 2.34.78.68 1.65.74 2.02.74 1.04-.01 1.75-.41 2.09-.6l-.27-.5c-.55.26-1.06.5-1.7.5-1.06 0-1.63-.6-1.86-.91a2.64 2.64 0 0 1-.48-1.58c0-.34.05-1.3.83-1.96a2.33 2.33 0 0 1 1.55-.55c.66 0 1.02.14 1.28.26l.4.22.3-.54Z"
+                            fill="#008238" />
+                    </svg></div>
+                <div class="clients-list__item swiper-slide"><svg class="clients-icon" width="91" height="20"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 9.21v8.46H9.63V13.4H4.84V.75H0V9.2Z" fill="#5F5046" />
+                        <path d="M12.07 3.7v2.96h-6v4.28h6v6.73h4.86V.75h-4.86V3.7Z" fill="#877873" />
+                        <path
+                            d="M81.56 10.5a.81.81 0 0 0-.59.45.6.6 0 0 0-.07.31.78.78 0 0 0 .43.76c.14.07.25.09.43.08.15 0 .19-.02.3-.07.47-.24.6-.82.28-1.24a.84.84 0 0 0-.78-.3ZM36.68 10.64c-.12 0-.28.03-.36.04-.44.1-.83.39-1.03.76-.12.24-.17.52-.18 1.02l-.02.34h-.69V14h.7v3.67h1.4V14h1.01v-1.2h-.5l-.51-.01v-.29c0-.22 0-.3.03-.37.09-.26.34-.37.8-.34a3 3 0 0 1 .25.02l.05.01v-1.14l-.05-.01a6.98 6.98 0 0 0-.9-.03ZM73.09 14.21v3.46h1.45v-6.92h-1.45v3.46ZM23.69 14.3v3.37h4.1v-1.35h-2.64v-5.38h-1.46v3.37ZM60.28 14.3v3.37h1.47v-2.8h2.7v2.8h1.48v-6.73h-1.48v2.6h-2.7v-2.6h-1.47v3.37ZM69.09 12.68c-1 .14-1.8.77-2.13 1.68-.1.29-.13.47-.13.88a2.52 2.52 0 0 0 2.13 2.53c.3.05.78.05 1.08 0a2.56 2.56 0 0 0 .21-5.02 3.4 3.4 0 0 0-1.16-.07Zm.73 1.32a1.22 1.22 0 0 1 .96 1.23 1.22 1.22 0 0 1-.67 1.14c-.35.16-.7.18-1.04.06-.18-.06-.31-.14-.46-.3a1.2 1.2 0 0 1-.33-.58 1.5 1.5 0 0 1 .03-.75c.11-.33.38-.62.7-.75.24-.1.55-.12.81-.05ZM77.7 12.68a2.55 2.55 0 0 0-2.23 3.03c.07.36.2.7.39 1 .12.17.44.5.62.62a3.13 3.13 0 0 0 2.23.4c.45-.09.9-.32 1.28-.69l.16-.15-.03-.04a34.9 34.9 0 0 0-.46-.45l-.43-.4-.11.1a1.37 1.37 0 0 1-1.65.21c-.13-.07-.35-.3-.43-.42a1.35 1.35 0 0 1-.02-1.3c.07-.15.32-.4.46-.48.17-.1.37-.15.57-.16.42-.03.76.1 1.07.4l.12.1.4-.4.45-.44.06-.06-.07-.07c-.19-.2-.51-.43-.77-.56a2.86 2.86 0 0 0-.66-.22 4.29 4.29 0 0 0-.95-.02ZM56.26 12.7c-1.13.16-1.92.9-2.14 1.98-.06.27-.06.82 0 1.1.06.37.22.76.43 1.04.56.75 1.61 1.1 2.77.9.53-.08 1-.31 1.37-.66l.15-.14-.4-.4-.4-.4-.1.07a1.7 1.7 0 0 1-.91.4c-.76.09-1.41-.27-1.5-.84l-.02-.08h3.55l.02-.1v-.32c0-1.32-.69-2.27-1.84-2.52a3.83 3.83 0 0 0-.98-.03Zm.66 1.14c.4.1.7.42.75.8v.1h-2.14v-.09a.95.95 0 0 1 .63-.75c.23-.08.54-.1.76-.06ZM46.9 12.7c-.22.04-.33.08-.48.15a.9.9 0 0 0-.31.22c-.09.1-.17.2-.2.26l-.07.12v-.65H44.4v4.87h1.43v-1.33c.02-1.5.01-1.44.15-1.73a.96.96 0 0 1 .65-.53 4.38 4.38 0 0 1 .84-.03l.08.02v-.67c0-.62 0-.67-.03-.68a4.55 4.55 0 0 0-.62-.02ZM85.98 12.72c-.4.07-.76.3-.9.6l-.06.07c-.01 0-.02-.13-.02-.3v-.3h-1.4V17.68H85l.01-1.46c0-1.34 0-1.48.04-1.58.08-.29.25-.5.47-.6.1-.06.13-.06.3-.06.18 0 .2 0 .31.06.2.1.3.25.38.52.03.12.03.2.03 1.63v1.5h1.43V16.2c.01-1.65 0-1.56.14-1.82a.88.88 0 0 1 .39-.37.68.68 0 0 1 .3-.04c.16 0 .19 0 .28.05.13.06.24.17.32.32.1.22.1.21.1 1.85v1.48h1.44l-.01-1.69c0-1.86 0-1.81-.12-2.17-.1-.3-.24-.52-.45-.72-.27-.25-.6-.37-1.06-.4-.74-.02-1.28.18-1.58.6l-.09.14s-.05-.05-.09-.12a1.24 1.24 0 0 0-.64-.52c-.25-.1-.64-.12-.92-.07ZM30.4 12.72l-.24.05c-1.2.24-1.99 1.37-1.89 2.68.04.52.17.9.44 1.3a2.4 2.4 0 0 0 2.47.94c.42-.09.78-.3.92-.58l.04-.07v.32l.01.31h1.43V12.8h-1.43v.3l-.01.3-.07-.1c-.1-.19-.37-.39-.7-.49a2.72 2.72 0 0 0-.97-.09Zm.83 1.32a1.22 1.22 0 0 1 .84 1.8c-.07.12-.31.37-.44.44-.22.12-.53.2-.77.17a1.23 1.23 0 0 1-1.14-1.08 1.3 1.3 0 0 1 .19-.8c.07-.12.25-.3.37-.37.26-.16.62-.23.95-.16ZM40.02 12.73a2.38 2.38 0 0 0-1.94 1.65c-.22.67-.16 1.48.14 2.09.3.6.84 1.04 1.5 1.2.85.2 1.77-.04 2.04-.53l.05-.1v.63h1.43V12.8h-1.42v.62l-.05-.1a1.1 1.1 0 0 0-.45-.4c-.19-.1-.35-.15-.59-.18-.19-.03-.51-.04-.7-.01Zm.89 1.31c.44.1.8.39.94.8.06.18.07.47.03.66-.09.4-.38.73-.77.87-.74.27-1.5-.12-1.69-.85a1.3 1.3 0 0 1 .15-.93c.12-.2.36-.4.58-.49.23-.09.53-.1.76-.06ZM50.01 12.72c-.53.06-1.05.31-1.43.7-.61.63-.85 1.6-.62 2.51.14.57.49 1.07.95 1.36.46.3 1.03.44 1.62.38.56-.04 1-.23 1.2-.5l.05-.08v.24c-.03.73-.33 1.13-.97 1.3-.2.05-.67.06-.9.02a3.23 3.23 0 0 1-.98-.36l-.15-.08-.33.53-.33.53.12.08c.16.1.55.3.72.35a4.46 4.46 0 0 0 2.37.12 2.46 2.46 0 0 0 1.33-.84c.18-.25.35-.64.42-1.02.08-.4.08-.37.09-2.82V12.8h-1.42v.63l-.04-.07c-.18-.4-.76-.66-1.43-.65l-.27.01Zm.96 1.35c.53.18.86.62.86 1.16 0 .61-.44 1.1-1.09 1.2-.37.05-.77-.07-1.05-.34-.15-.15-.25-.3-.31-.5a.88.88 0 0 1-.05-.36c0-.2 0-.25.05-.37.14-.43.46-.72.91-.82.17-.04.5-.03.68.03ZM81 15.24v2.43h1.43V12.8H81v2.44Z"
+                            fill="#5F5046" />
+                    </svg></div>
+            </div>
+        </div>
+
+        <div class="clients-container">
+            <div class="clients-block">
+                <h5 class="clients-block__title h4">What clients say.</h5>
+                <p class="clients-block__text light-gray">Aenean mauris duis sed congue magna scelerisque dolor
+                    eget in. Euismod eros,
+                    in cursus aliquam.</p>
+            </div>
+
+            <div class="swiper review-slider">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination review-slider__pagination"></div>
+                <div class="swiper-wrapper">
+
+                    <!-- slide1 -->
+                    <div class="swiper-slide">
+                        <div class="clients-review clients-review__block">
+
+
+                            <div class="clients-review__img"><svg class="clients-icon clients-icon_tr" width="85"
+                                    height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M30.34.4h8.5l-.06.07-19.31 22.96-8.35.01L30.34.4Zm20.11 18.47v-4.51h5.04l5.04.01.2.07c.43.15.78.43.97.8.2.4.2.12.2 4.34v3.8h-2.28v-3.2c0-3.46 0-3.33-.15-3.55a.76.76 0 0 0-.2-.16l-.13-.08h-.94l-.95-.02v7.01h-2.21l-.01-3.27-.01-3.26-.09-.14a.74.74 0 0 0-.23-.23l-.14-.09h-.91l-.92-.02v7.01h-2.28v-4.51Zm-19.77 4.28a1.95 1.95 0 0 1-1.39-1.34c-.04-.16-.05-.34-.05-3.03v-2.85l.08-.23c.12-.32.26-.55.5-.79.16-.15.28-.24.45-.32.48-.23.12-.22 4.44-.23h3.86v1.99h-3.36c-3.36 0-3.37 0-3.5.06a.46.46 0 0 0-.2.2l-.08.13v2.1c0 2.08 0 2.1.06 2.22a.7.7 0 0 0 .19.2l.12.09h3.38l3.39.01v1.85h-3.84c-3.66 0-3.85 0-4.05-.06Zm10.18 0a2.04 2.04 0 0 1-.76-.39 1.8 1.8 0 0 1-.52-.69c-.17-.36-.17-.32-.17-3.27 0-3.04-.01-2.91.22-3.38.18-.36.46-.65.81-.83.49-.24.1-.22 4.75-.22h4.12v.99l.02.99h-3.69l-3.69.01-.1.07a.68.68 0 0 0-.17.19l-.07.12v2.1c0 2.08 0 2.1.06 2.22a.7.7 0 0 0 .18.2l.13.09h3.67l3.68.01v1.85h-4.14c-3.93 0-4.14 0-4.33-.06Zm23.63.01a2 2 0 0 1-1.43-1.4c-.05-.17-.05-.35-.05-2.96 0-3.11-.01-2.92.2-3.38.15-.3.54-.69.85-.84.46-.22.08-.2 4.7-.22h4.15v1.99h-3.65c-3.52 0-3.65 0-3.75.05a.46.46 0 0 0-.25.27c-.04.1-.05.38-.05 2.19 0 1.68.01 2.1.04 2.17.05.12.22.27.36.3.07.02 1.28.03 3.7.03h3.6v1.85H68.8c-3.41 0-4.15-.01-4.3-.05Zm9.43-1.04v-1.06l.07-.15c.14-.3.25-.37 1.69-1.28l1.35-.86c0-.02-1.8-1.17-2.43-1.57-.38-.24-.48-.33-.58-.52l-.07-.14v-2.18h2.22v1.34l1.56.98c.86.54 1.59.98 1.61.98.02 0 .76-.45 1.62-1l1.58-1v-1.3h2.22v1.03c0 1 0 1.05-.06 1.2-.1.3-.27.42-1.72 1.33-.73.45-1.32.83-1.31.84 0 .02 2.14 1.4 2.55 1.65.22.14.38.3.45.46.06.13.06.19.06 1.22v1.1l-.57-.01c-.3 0-.8 0-1.1-.02l-.55-.02v-1.31l-1.56-.98-1.6-.99c-.03 0-.76.46-1.63 1l-1.58 1v1.32h-2.22v-1.06ZM43.7 18.86v-.9h5.63v1.79H43.7v-.9Zm23.59 0v-.9h5.62v1.79H67.3v-.9Z"
+                                        fill="#293064" />
+                                    <path d="M0 23.42 19.18.43h8.51l-.07.08L8.29 23.47H4.13c-3.97 0-4.17 0-4.13-.05Z"
+                                        fill="#DF343D" />
+                                </svg>
+
+                            </div>
+                            <p class="clients-review__text">“Pulvinar nisl nulla elit integer diam maecenas. Mauris nunc
+                                at
+                                arcu
+                                urna. Erat quisque neque, a augue lectus vitae faucibus facilisi. Aenean mauris duis sed
+                                congue
+                                magna scelerisque dolor eget in. Euismod eros, in cursus aliquam. Suspendisse odio est
+                                nullam
+                                vulputate quis nam ultricies.”</p>
+                            <p class="clients-review__name">Jack Carty</p>
+                            <p class="class-review__position orange">SEO</p>
+                        </div>
+                    </div>
+                    <!-- slide2 -->
+                    <div class="swiper-slide">
+                        <div class="clients-review clients-review__block ">
+                            <div class="clients-review__img"><svg class="clients-icon clients-icon_tr" width="86" height="28"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 2.7V5h2.7V2.5h5.6c0 .2-1.8 2.9-4 6.2-3.8 5.5-4 6-4 7V17h11.4V12.2H9.3v2.5h-6l4.2-6.2c3.6-5.3 4.2-6.3 4.2-7v-1H0v2.2ZM15.1 1.5c0 1 0 1 1 1h1l.2 6.1v6H15v1l.1 1.1 6 .1h5.8V12h-2.4v2.7H20V2.5h2v-2H15v1Z"
+                                    fill="#008687" />
+                                <path
+                                    d="M.3 22.2c0 .8.2 1.1.5 1.2.3 0 .4 0 .4-.5 0-.6.1-.7.8-.7.8 0 .9-.1-.8 2.4-.7 1-1.2 2-1.2 2.3 0 .4.1.4 2.4.4H5v-1c0-1 0-1.2-.6-1.2-.4 0-.5.2-.5.6 0 .4-.2.6-.8.6-1 .1-1 0 .7-2.5a7 7 0 0 0 1.1-2.2c0-.3-.5-.4-2.3-.5H.2v1.1ZM46.4 21.5c0 .2 0 .4.3.6.5.4.6 4.3 0 4.3-.2 0-.4.1-.3.4 0 .3.3.4 1.3.5 1.2 0 1.3 0 1.3-.4 0-.3 0-.5-.2-.5-.1 0-.3-.3-.3-.5-.2-.7 0-.6 1 .5.6.7 1 1 1.5 1s.7-.2.7-.5-.1-.5-.3-.5c-.2 0-.6-.3-.9-.7L50 25l.6-.6.8-.5c.2 0 .3-.2.3-.5 0-.4-.2-.4-1.4-.4s-1.5 0-1.4.3c0 .2.2.5.4.6.2.2.2.3-.2.5-.5.3-.5.2-.6-1.5v-1.7h-1c-.6 0-1 0-1.1.3ZM54.4 21.7c0 .3.1.5.3.5.3 0 .4.4.4 2 0 1.5 0 2-.4 2-.2 0-.3.1-.3.5v.6h5.1V26c0-1.3 0-1.5-.5-1.5-.3 0-.4.2-.5 1 0 .8-.2.8-.9 1h-.8v-2c0-1.3.1-2.2.3-2.2.1 0 .2-.2.2-.5 0-.5-.1-.6-1.5-.6-1.3 0-1.4 0-1.4.6ZM61 21.5c0 .6.4.8.9.4.4-.4.2-.9-.5-.9-.3 0-.4.2-.4.5ZM62.8 21.3c-.2.3.5 1 .8.8.2 0 .3-.4.3-.6 0-.5-.8-.7-1.1-.2ZM65.1 21.7c0 .3.2.5.4.5.3 0 .3.4.3 2 0 1.5 0 2-.3 2-.2.2-.4.4-.4.7 0 .4.2.4 2 .4 1.6 0 2-.1 2.4-.5.6-.6.7-2.5.1-3.3-.3-.5-.6-.6-1.5-.5l-1 .1v-2h-1c-.9 0-1 0-1 .6Zm3.5 3c.1.3 0 .8-.2 1.1-.4.6-.4.6-.9.2-.5-.5-.6-1.2 0-1.7.4-.4 1-.2 1.1.4ZM80 21.5c0 .2 0 .4.3.6.6.4.6 4.3 0 4.3-.2 0-.3.1-.3.4 0 .3.4.4 1.4.5 1.2 0 1.3 0 1.3-.4 0-.3-.1-.5-.3-.5l-.2-.6c0-.4.1-.4.9.5.6.8 1 1 1.5 1 .6 0 .8 0 .8-.4 0-.3-.2-.5-.4-.5-.1 0-.5-.3-.8-.7l-.5-.7.5-.6.9-.5c.1 0 .3-.2.3-.5 0-.4-.2-.4-1.4-.4s-1.3 0-1.3.4c0 .3.1.5.2.5.2 0 .2.2 0 .4-.5.7-.7.4-.7-1.4V21h-1c-.6 0-1 .1-1.2.4ZM29 21.8c-.4.3-.7.7-.7.9 0 .1-.1.3-.3.3l-.2.4c0 .3.1.5.2.5.2 0 .3.7.3 1.5 0 1.6.3 2 1.4 1.9.5 0 .7-.2.7-.6 0-.4 0-.6-.3-.6s-.3-.2-.3-1c0-.9 0-1.2.3-1.2.2 0 .4-.2.4-.5 0-.2-.2-.4-.4-.4s-.3-.4-.4-.9v-.8l-.7.5ZM5.9 23.6c-1.2 1.5-.3 3.7 1.6 3.7.9 0 2-.5 2-1 0-.3-1-.4-1.4-.1-.4.2-.7.2-1 0-.9-.6-.6-.8 1-.8 1 0 1.7-.1 1.7-.2 0-.6-.6-1.8-1-2L7.3 23c-.7 0-1 .1-1.4.6Zm2.2.7c.1.3 0 .4-.7.4s-.8 0-.6-.4c.2-.2.5-.4.8-.4.2 0 .4.2.5.4ZM10 23.5c0 .2.2.4.4.4.5 0 .5 2.2 0 2.4-.2 0-.4.3-.4.6 0 .4.2.4 1.3.4 1.2 0 1.4 0 1.4-.4 0-.3-.2-.6-.4-.6-.3-.1-.3-.4-.3-1 0-.8.2-1 .6-1 .4 0 .4.2.5 1.5v1.5h1c.9 0 1 0 1-.4 0-.3-.1-.6-.4-.6-.5-.2-.3-2 .2-2 .4-.2.4 0 .5 1.4v1.5h1.1c1 .2 1 .1 1-.3 0-.3-.1-.5-.3-.5-.3 0-.4-.3-.4-1.4 0-.8 0-1.6-.3-1.8-.3-.3-1.3-.3-1.9 0H14l-2-.2c-1.8 0-2 0-2 .5ZM18.4 23.6c-.8.8-.8 2.3 0 3.1.8.8 2.3.9 3 .2.6-.5.6-.6.3-.8-.5-.3-.9-.3-1 0-.4.4-1.2.3-1.4-.2-.3-.5-.2-.5 1.3-.5.9 0 1.6-.1 1.6-.2 0-.6-.6-1.8-1-2-.8-.5-2.2-.3-2.8.4Zm2.2.7c0 .3 0 .4-.6.4-.7 0-1-.3-.6-.6.3-.3 1-.2 1.2.2ZM22.4 23.5c0 .2.2.4.4.4.3 0 .4.3.4 1.2 0 1-.1 1.3-.4 1.3-.2 0-.4.2-.4.5 0 .4.2.4 1.4.4 1.1 0 1.3 0 1.3-.4 0-.3-.2-.6-.4-.6-.2-.1-.3-.4-.3-1 0-.8.2-1 .7-1 .5-.2.5 0 .5 1.4v1.6h1c.8 0 1 0 1-.4 0-.3-.1-.5-.3-.5-.1 0-.2-.5-.2-1.1a6 6 0 0 0-.3-1.7c-.2-.6-.3-.6-2.3-.6-1.9 0-2 0-2 .5ZM30.7 23.4c0 .3.1.5.2.5.2 0 .5.8.8 1.7.5 1.6.6 1.7 1.2 1.7s.7 0 1-1.2c.3-1.4.5-1.4.9.1.2.9.3 1 .9 1 .7 0 .7-.1 1.2-1.6.3-1 .6-1.7.8-1.7.2 0 .3-.2.3-.5 0-.4-.1-.4-1-.4-1 0-1.2 0-1.2.4 0 .3.1.5.3.6.3 0 0 1.4-.3 1.4l-.2-.3-.3-1.2c-.2-.8-.3-1-.8-.9-.6 0-.7.3-1 1.3-.5 1.1-.5 1.2-.7.6l.1-1.3.3-.6h-1.3c-1 0-1.2 0-1.2.4ZM38.8 23.4c-1.5 1.5-.6 4 1.4 4 .6 0 1.2-.3 1.6-.6l.7-.5-.6-.2c-.3-.2-.7-.1-1.1 0-.6.4-1.3.2-1.3-.3 0-.3.3-.4 1.5-.4h1.5l-.2-.8c0-.4-.4-1-.6-1.2-.7-.6-2.3-.6-3 0Zm2.1 1c0 .2-.1.3-.6.3-.8 0-1-.3-.6-.6.2-.3 1.1-.1 1.2.2ZM42.9 23.4c0 .3.2.5.3.5l.2 1.2c0 1 0 1.3-.3 1.3-.2 0-.3.1-.2.5 0 .4.3.4 1.4.4 1.1 0 1.3 0 1.3-.4 0-.3-.2-.5-.4-.5s-.3-.3-.3-.7c0-.8.5-1.5 1.1-1.5.2 0 .3-.3.3-.6 0-.8-.5-.8-1.2-.2-.4.3-.5.3-.5 0s-.2-.4-1-.4c-.7 0-.8 0-.7.4ZM60 23.4c0 .3.1.5.2.5.2 0 .3.6.3 1.3 0 2 .2 2 2.4 2 1.8.1 2 0 2-.4 0-.2-.1-.4-.3-.4-.1 0-.2-.8-.2-1.7V23h-1c-.8 0-1 0-1 .4 0 .3.2.5.3.5.1 0 .2.4.2 1 0 .8-.2 1.1-.5 1.2-.4 0-.5-.1-.5-1.5V23h-1c-.7 0-1 0-1 .4ZM71.2 23.4c-1 1-1 2.5 0 3.5.7.7 2.2.6 3-.1l.8-.6-.6-.2c-.3-.1-.7 0-.9.1-.4.4-1.6.1-1.6-.3 0-.3.4-.4 1.5-.4 1.4 0 1.5 0 1.5-.6 0-.3-.2-.8-.5-1.2-.5-.5-.7-.6-1.6-.6-.8 0-1.2.1-1.6.4Zm2.2 1c0 .2-.2.3-.7.3-.7 0-1-.3-.6-.6.3-.3 1.1-.1 1.3.2ZM76 23.6c-.7.6-.9 2.1-.3 2.8.8 1 2.4 1.2 3.4.4.8-.6.8-.8 0-1.1-.4-.2-.5-.2-.7 0 0 .3-.4.4-.8.4-.6-.1-.7-.2-.7-1 0-.7.1-.8.6-.9.3 0 .8.1 1 .3.7.6 1.2.3 1.2-.7V23h-1.5c-1.4 0-1.7 0-2.2.6Z"
+                                    fill="#000" />
+                            </svg>
+
+                            </div>
+                            <p class="clients-review__text">“Pulvinar nisl nulla elit integer diam maecenas. Mauris nunc
+                                at
+                                arcu
+                                urna. Erat quisque neque, a augue lectus vitae faucibus facilisi. Aenean mauris duis sed
+                                congue
+                                magna scelerisque dolor eget in. Euismod eros, in cursus aliquam. Suspendisse odio est
+                                nullam
+                                vulputate quis nam ultricies.”</p>
+                            <p class="clients-review__name">Jack Carty</p>
+                            <p class="class-review__position orange">SEO</p>
+                        </div>
+                    </div>
+
+                    <!-- slide3 -->
+                    <div class="swiper-slide">
+                        <div class="clients-review clients-review__block ">
+                            <div class="clients-review__img"><svg class="clients-icon clients-icon_tr" width="93" height="18"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M21.7 8.93h3.14c1.33 0 2.9-.38 2.9-2.16 0-.9-.5-1.44-1.5-1.65V5.1c.83-.28 1.31-.8 1.31-1.74 0-1.28-1.04-1.89-2.42-1.89H21.7v7.46Zm1.98-3.17h.61c.69 0 1.47.08 1.47.9 0 .75-.76.86-1.49.86h-.59V5.76Zm0-2.88h.58c.66 0 1.3.07 1.3.75 0 .63-.67.79-1.32.79h-.56V2.88Z"
+                                    fill="#1A171B" />
+                                <path
+                                    d="M34.47 3.36h-1.92v2.35c0 1.2-.4 1.74-1.2 1.74-.52 0-.88-.35-.88-1.4V3.36h-1.93v3.47c0 1.16.61 2.22 2.13 2.22.87 0 1.64-.35 2.03-1.15h.02v1.03h1.75V3.36ZM35.5 8.93h4.8V7.52h-2.6l2.55-2.62V3.36h-4.69v1.41h2.49L35.51 7.4v1.54ZM41.17 8.93h4.78V7.52h-2.58l2.54-2.62V3.36h-4.69v1.41h2.5L41.16 7.4v1.54Z"
+                                    fill="#1A171B" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M47.1 8.93h1.93V3.36h-1.92v5.57Zm1.93-7.89h-1.92v1.41h1.92v-1.4Z" fill="#1A171B" />
+                                <path
+                                    d="M60.24 1.47h-1.99v4.3c0 .98-.27 1.81-1.28 1.81-1.02 0-1.28-.83-1.28-1.82V1.47H53.7V6.1c0 2.04 1.33 2.95 3.27 2.95s3.27-.91 3.27-2.95V1.47ZM61.23 8.93h1.92V6.58c0-1.2.4-1.74 1.2-1.74.52 0 .89.35.89 1.4v2.69h1.92V5.46c0-1.16-.61-2.23-2.13-2.23-.87 0-1.64.36-2.03 1.16h-.02V3.36h-1.75v5.57Z"
+                                    fill="#1A171B" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M68.34 8.93h1.92V3.36h-1.92v5.57Zm1.92-7.89h-1.92v1.41h1.92v-1.4Z" fill="#1A171B" />
+                                <path
+                                    d="M76.02 3.54a3.45 3.45 0 0 0-1.53-.3c-1.83 0-3.23 1.06-3.23 2.91 0 1.84 1.4 2.9 3.23 2.9.52 0 1.1-.08 1.57-.24l-.04-1.43c-.32.17-.76.26-1.2.26-.83 0-1.58-.57-1.58-1.46 0-.96.64-1.54 1.48-1.54.46 0 .8.1 1.16.31l.14-1.4Z"
+                                    fill="#1A171B" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M82.55 6.7v-.35c0-1.65-.75-3.12-2.81-3.12-1.73 0-2.98 1.07-2.98 2.9 0 1.85 1.4 2.93 3.23 2.93.72 0 1.42-.11 2.04-.36V7.35a3.6 3.6 0 0 1-1.7.42c-.93 0-1.52-.3-1.63-1.06h3.85Zm-3.87-1.08c.04-.65.37-1.17 1.07-1.17.77 0 1.07.52 1.07 1.17h-2.14Z"
+                                    fill="#1A171B" />
+                                <path
+                                    d="M83.52 8.93h1.92V6.58c0-1.2.4-1.74 1.09-1.74.54 0 .77.47.77 1.1v2.99h1.92V6.58c0-1.2.4-1.74 1.09-1.74.54 0 .77.47.77 1.1v2.99H93V5.65c0-1.5-.36-2.42-1.96-2.42a2.2 2.2 0 0 0-1.98 1.07c-.3-.72-.95-1.07-1.74-1.07-.88 0-1.65.36-2.03 1.16h-.02V3.36h-1.75v5.57Z"
+                                    fill="#1A171B" />
+                                <path
+                                    d="M2.7 5.7H0V2.56s1.71.1 3.19-.68A2.33 2.33 0 0 0 4.47 0h12.21v10.56c0 5.03-.67 6.48-6.95 6.48-6.42 0-7.02-1.45-7.02-6.48V5.7Z"
+                                    fill="#0071B9" />
+                                <path d="M7.69 0h4.01v13.03H7.7V0Z" fill="#1A171B" />
+                                <path
+                                    d="M10.97.33H8.42v.98h2.55V.33ZM8.42 6.91v1.14h1.75v.28H8.42v1.18h1.62c.8 0 .96-.1.96-1.3s-.17-1.3-.96-1.3H8.42Z"
+                                    fill="#fff" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M10.96 12.37v-1.94c0-.56-.32-.73-.66-.73-.51 0-.56.32-.59.65-.03-.32-.22-.63-.65-.63-.39 0-.64.17-.64.68v1.97h2.54ZM10 11.34v-.42c0-.15.08-.2.19-.2.1 0 .18.05.18.2v.42H10Zm-.91 0v-.4c0-.15.06-.2.18-.2.11 0 .19.05.19.21v.4h-.37Z"
+                                    fill="#fff" />
+                                <path
+                                    d="M10.96 3.97v-2.5h-.84v.96l-.92-.95h-.78v2.5h.92v-1l1.05.99h.57ZM10.96 6.69v-2.5h-.84v.96L9.2 4.2h-.78v2.5h.92v-1l1.05.99h.57Z"
+                                    fill="#fff" />
+                            </svg>
+
+                            </div>
+                            <p class="clients-review__text">“Pulvinar nisl nulla elit integer diam maecenas. Mauris nunc
+                                at
+                                arcu
+                                urna. Erat quisque neque, a augue lectus vitae faucibus facilisi. Aenean mauris duis sed
+                                congue
+                                magna scelerisque dolor eget in. Euismod eros, in cursus aliquam. Suspendisse odio est
+                                nullam
+                                vulputate quis nam ultricies.”</p>
+                            <p class="clients-review__name">Jack Carty</p>
+                            <p class="class-review__position orange">SEO</p>
+                        </div>
+                    </div>
+
+                    <!-- slide4 -->
+                    <div class="swiper-slide">
+
+                        <div class="clients-review clients-review__block ">
+                            <div class="clients-review__img"><svg class="clients-icon clients-icon_tr" width="84" height="27"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5.2 13.86v-.05c0-.19-.14-.34-.34-.34H1.65c-.9 0-1.65-.73-1.65-1.65V7.3c0-.9.73-1.65 1.65-1.65h3.21c.2 0 .34-.15.34-.34V.8c0-.2.15-.34.34-.34h1.92c.2 0 .34.14.34.34v5.8c0 .9-.73 1.66-1.65 1.66H2.94c-.2 0-.34.15-.34.34V10.53c0 .2.15.34.34.34H6.18c.9 0 1.65.73 1.65 1.66V20.96c0 .2.14.34.34.34H15.29c.2 0 .34-.14.34-.34v-4.52c0-.2.15-.34.34-.34h1.92c.2 0 .34.15.34.34v5.81c0 .9-.73 1.65-1.65 1.65H6.86c-.9 0-1.66-.73-1.66-1.65v-8.39Zm15.64 0v-.05c0-.19-.15-.34-.34-.34h-3.21c-.9 0-1.66-.73-1.66-1.65V3.4c0-.2-.14-.34-.34-.34H13.37c-.2 0-.34.14-.34.34V18.3c0 .2-.14.34-.34.34h-1.92a.33.33 0 0 1-.34-.34V2.1c0-.9.73-1.66 1.65-1.66h4.53c.9 0 1.65.73 1.65 1.66V10.53c0 .2.14.34.34.34h3.21c.9 0 1.65.73 1.65 1.66v11c0 .2-.14.35-.34.35H21.2a.33.33 0 0 1-.34-.34v-9.68h-.02Z"
+                                    fill="#43B02A" />
+                                <path
+                                    d="M37.2 24.49c0 1.02-.9 1.97-2.46 1.97h-.46c-1.53 0-2.43-.78-2.55-1.6l-.03-.16 1.66-.14.07.1c.1.2.34.31.75.31h.37c.46 0 .85-.24.85-.75v-.6c-.34.21-.73.3-1.12.3h-.7c-1.22 0-1.88-1.01-1.88-2.08v-2.85c0-1.1.66-2.09 1.88-2.09h.6c.59 0 1.15.24 1.6.66l.2-.59h1.22v7.52ZM35.4 22v-3.16a1.18 1.18 0 0 0-.83-.37h-.39c-.36 0-.7.24-.7.76v2.38c0 .5.32.75.68.75h.36c.32 0 .66-.14.88-.36ZM41.91 18.55h-.85c-.44 0-.9.18-1.19.47v4.84H38.1V17h1.21l.2.66a2.8 2.8 0 0 1 1.82-.73h.58v1.63ZM49.7 2.97h-1.07c-2.2 0-3.43 1.39-3.43 2.9v4.2c0 1.5 1.26 2.9 3.43 2.9h1.07c2.09 0 3.28-1.4 3.28-2.9v-4.2c0-1.51-1.2-2.9-3.28-2.9Zm.75 6.69c0 .73-.49 1.07-1.07 1.07h-.6c-.6 0-1.08-.34-1.08-1.07v-3.4c0-.71.49-1.08 1.07-1.08h.6c.6 0 1.08.37 1.08 1.07v3.4Zm-9-6.69h-.68c-.68 0-1.33.22-1.92.56V.44h-2.53v12.4h2.53v-7.1c.34-.34.8-.56 1.3-.56h.36c.55 0 1 .32 1 1.05v6.61h2.52v-7c0-1.5-.9-2.87-2.58-2.87ZM34.23.44h-1.72l-.76 2.63h-1.12V5.3h1.07v7.56h2.53V5.3h1.34V3.07h-1.34V.44Zm45.13 5.47V5.7c0-.34.36-.48.7-.48h.54c.41 0 .8.27.8.8v.17h2.36v-.27A2.85 2.85 0 0 0 80.74 3h-1c-1.92 0-3 1.21-3 2.55v.5c0 2.88 4.83 2.95 4.83 3.9v.2c0 .38-.41.58-.95.58h-.6c-.57 0-1.03-.27-1.03-.8v-.2h-2.5v.39c0 1.46 1.14 2.84 3.23 2.84h1.07c2 0 3.21-1.29 3.21-2.65v-.43c.02-3.1-4.64-2.97-4.64-3.97Zm-6.88-2.94h-.86c-2.09 0-3.28 1.46-3.28 3.07v.24h2.53v-.12c0-.64.41-.95.9-.95h.49c.5 0 .95.36.95 1.07v.58l-1.93.22c-1.67.2-3.35 1-3.35 2.65v.75c0 1.3.97 2.5 2.75 2.5h.8c.75 0 1.55-.33 2.24-.92l.26.8h1.73V6.09c.02-1.65-1.17-3.1-3.23-3.1Zm.75 7.2c-.39.36-1 .56-1.58.56h-.46c-.37 0-.7-.22-.7-.64V9.8c0-.46.55-.8 1.18-.87l1.56-.22v1.46Zm-8.78-7.2h-.68c-.92 0-1.8.37-2.5 1-.42-.6-1.1-1-2-1h-.68c-.9 0-1.72.37-2.45.95l-.27-.85h-1.73v9.77h2.5v-7.1c.35-.34.81-.56 1.3-.56h.36c.56 0 1 .32 1 1.05v6.61h2.53V5.72c.31-.32.8-.54 1.29-.54h.36c.54 0 1 .32 1 1.05v6.61H67v-7c.02-1.5-.88-2.87-2.56-2.87ZM44.51 17v4.67c0 .5.32.73.71.73h.27c.34 0 .68-.15.9-.37V17h1.77v6.88h-1.21l-.2-.58c-.48.41-1.1.65-1.7.65h-.49c-1.19 0-1.8-.95-1.8-2.04V17h1.75ZM50.28 17l.17.56a2.4 2.4 0 0 1 1.55-.63h.69c1.21 0 1.87 1 1.87 2.09v2.87c0 1.09-.66 2.09-1.87 2.09h-.66c-.41 0-.83-.13-1.2-.34v2.84h-1.77V17h1.22Zm.56 1.85V22c.22.22.53.36.85.36h.36c.4 0 .7-.24.7-.75v-2.38c0-.52-.3-.76-.7-.76h-.36c-.3 0-.63.15-.85.37ZM56.57 17l.17.56a2.4 2.4 0 0 1 1.56-.63h.68c1.22 0 1.87 1 1.87 2.09v2.87c0 1.09-.65 2.09-1.87 2.09h-.63c-.41 0-.83-.13-1.2-.34v2.84h-1.77V17h1.2Zm.56 1.85V22c.22.22.54.36.85.36h.37c.39 0 .7-.24.7-.75v-2.38c0-.52-.31-.76-.7-.76h-.37c-.29 0-.63.15-.85.37ZM63.43 21.04v.6c0 .51.34.76.75.76h.42c.41 0 .75-.22.75-.7v-.06h1.78v.34c0 1.02-.83 1.97-2.31 1.97h-.76c-1.53 0-2.4-.97-2.4-2.04v-2.94c0-1.07.87-2.04 2.4-2.04h.76c1.46 0 2.3.97 2.3 2.04v2.07h-3.69Zm0-1.37h1.92v-.43c0-.49-.34-.76-.75-.76h-.42c-.4 0-.75.25-.75.76v.43Z"
+                                    fill="#53565A" />
+                            </svg>
+
+                            </div>
+                            <p class="clients-review__text">“Pulvinar nisl nulla elit integer diam maecenas. Mauris nunc
+                                at
+                                arcu
+                                urna. Erat quisque neque, a augue lectus vitae faucibus facilisi. Aenean mauris duis sed
+                                congue
+                                magna scelerisque dolor eget in. Euismod eros, in cursus aliquam. Suspendisse odio est
+                                nullam
+                                vulputate quis nam ultricies.”</p>
+                            <p class="clients-review__name">Jack Carty</p>
+                            <p class="class-review__position orange">SEO</p>
+                        </div>
+                    </div>
+
+                    <!-- slide5 -->
+                    <div class="swiper-slide">
+
+                        <div class="clients-review clients-review__block ">
+                            <div class="clients-review__img"><svg class="clients-icon clients-icon_tr" width="85" height="14"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#a)" fill="#0073AB">
+                                    <path
+                                        d="M.83 7v6.02h15.23V1h-4.02v10.8l-.8-.04-.79-.04-.04-5.37L10.38 1H6.51v10.79H4.85V.98H.84v6.03ZM18 2.65V4.3h3.87V.99H18v1.66ZM23.81 3.13v2.15h-1.38v1.38h1.39v6.36h4V6.66h1.39v6.36h4.01V6.66h1.53V5.28h-.68c-.49 0-.7-.06-.76-.22a17.6 17.6 0 0 1-.09-2.15V1h-3.94V5.2l-.72.04-.73.04V.99h-4.01v2.14ZM46.93 7v6.02h3.86l.04-1.42.05-1.41.66-.05.65-.04v2.92h3.88V8.46h-1.25c-.68 0-1.25-.06-1.25-.13s.67-.79 1.5-1.59l1.48-1.46h-2.49l-1.55 1.45c-.85.8-1.58 1.45-1.62 1.45-.04 0-.08-1.62-.08-3.6V.98h-3.88v6.03ZM57.73 2.65V4.3h3.87V.99h-3.87v1.66ZM80.3 3.13v2.15H74.75v7.74h9.4V1H80.3v2.14Zm0 6.09v2.56h-1.53V6.66h1.52v2.56ZM18 9.15v3.87h3.87V5.28H18v3.87ZM35.58 8.08c0 1.55-.04 3.3-.08 3.88l-.1 1.06H45v-1.24h-5.4v-1.11H45v-5.4h-9.42v2.81Zm5.5-.15-.03 1.29-.72.04-.74.04V6.66h1.54l-.04 1.27ZM57.73 9.15v3.87h3.87V5.28h-3.87v3.87ZM63.27 9.15v3.87h3.87V6.66h1.94v6.36h4.01V5.28h-9.82v3.87Z" />
+                                </g>
+                                <defs>
+                                    <clipPath id="a">
+                                        <path fill="#fff" transform="translate(0 .44)" d="M0 0h85v13H0z" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                            </div>
+                            <p class="clients-review__text">“Pulvinar nisl nulla elit integer diam maecenas. Mauris nunc
+                                at
+                                arcu
+                                urna. Erat quisque neque, a augue lectus vitae faucibus facilisi. Aenean mauris duis sed
+                                congue
+                                magna scelerisque dolor eget in. Euismod eros, in cursus aliquam. Suspendisse odio est
+                                nullam
+                                vulputate quis nam ultricies.”</p>
+                            <p class="clients-review__name">Jack Carty</p>
+                            <p class="class-review__position orange">SEO</p>
+                        </div>
+                    </div>
+
+                    <!-- slide6 -->
+                    <div class="swiper-slide">
+                        <div class="clients-review clients-review__block ">
+                            <div class="clients-review__img"><svg class="clients-icon clients-icon_tr" width="84" height="13"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#a)">
+                                    <path
+                                        d="M10.23 3.25C10.07 1.01 8.44 0 5.07 0 2.04 0 .22 1.2.22 3.14c0 1.08.45 1.9 1.32 2.37.64.35 1.27.54 3.04.92 1.87.38 2 .44 2.03.94.03.53-.45.84-1.28.84-.99 0-1.44-.35-1.55-1.2H0c.21 2.45 1.96 3.65 5.39 3.65 3.16 0 5.12-1.36 5.12-3.56 0-1.84-1.07-2.68-4.1-3.22-2.04-.36-2.3-.47-2.3-.97 0-.4.38-.61 1.11-.61.91 0 1.25.23 1.39.94l3.62.01Zm8.59 2.1c0 1.48-.6 2.25-1.77 2.25-1.15 0-1.75-.81-1.75-2.32 0-1.47.65-2.33 1.75-2.33 1.2 0 1.77.78 1.77 2.4Zm3.99.06c0-3.25-1.8-5.4-4.51-5.4-1.33 0-2.23.4-3.03 1.36V.3h-3.83V13h3.99V9.3c.8.97 1.72 1.39 3 1.39 2.67 0 4.38-2.06 4.38-5.28Zm4.64-1.2c.21-1.15.87-1.74 1.92-1.74 1.1 0 1.75.59 1.84 1.75h-3.76Zm-.01 1.95h7.67v-.27c0-3.56-2.24-5.89-5.67-5.89-3.43 0-5.82 2.24-5.82 5.43 0 3.14 2.35 5.23 5.88 5.23 2.21 0 4.03-.9 4.94-2.35l-3.02-1.37c-.6 1.07-1.2 1.23-1.95 1.23-1.23.02-1.95-.7-2.03-2.01ZM40.08.27h-3.83V10.4h3.99V4.83c0-1.12.56-1.74 1.56-1.74.93 0 1.36.5 1.36 1.66v5.65h4V4.2c0-1.43-.2-2.2-.72-2.87A3.87 3.87 0 0 0 43.37 0c-1.4 0-2.35.44-3.3 1.52l.01-1.25Zm12.57 0h-3.83V10.4h3.99V4.83c0-1.12.56-1.74 1.57-1.74.92 0 1.35.5 1.35 1.66v5.65h4V4.2c0-1.43-.2-2.2-.72-2.87A3.87 3.87 0 0 0 55.94 0c-1.4 0-2.35.44-3.29 1.52V.27Zm11.99 3.95c.2-1.16.87-1.75 1.92-1.75 1.1 0 1.75.59 1.83 1.75h-3.75Zm-.03 1.94h7.67v-.27c0-3.56-2.24-5.89-5.67-5.89-3.43 0-5.82 2.24-5.82 5.43 0 3.14 2.35 5.23 5.88 5.23 2.21 0 4.03-.9 4.94-2.35L68.6 6.95c-.6 1.07-1.19 1.24-1.95 1.24-1.24 0-1.96-.71-2.04-2.03ZM84 4.38v-.2c0-1.42-.2-2.2-.71-2.86A3.87 3.87 0 0 0 80.22 0c-1.4 0-2.27.38-3 1.52V.27H73.4V10.4h3.99V4.83c0-1.12.26-1.74 1.27-1.74.93 0 1.36.5 1.36 1.66V6.2L84 4.38Z"
+                                        fill="#004B91" />
+                                </g>
+                                <defs>
+                                    <clipPath id="a">
+                                        <path fill="#fff" d="M0 0h84v13H0z" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                            </div>
+                            <p class="clients-review__text">“Pulvinar nisl nulla elit integer diam maecenas. Mauris nunc
+                                at
+                                arcu
+                                urna. Erat quisque neque, a augue lectus vitae faucibus facilisi. Aenean mauris duis sed
+                                congue
+                                magna scelerisque dolor eget in. Euismod eros, in cursus aliquam. Suspendisse odio est
+                                nullam
+                                vulputate quis nam ultricies.”</p>
+                            <p class="clients-review__name">Jack Carty</p>
+                            <p class="class-review__position orange">SEO</p>
+                        </div>
+                    </div>
+
+                    <!-- slide7 -->
+                    <div class="swiper-slide">
+                        <div class="clients-review clients-review__block ">
+                            <div class="clients-review__img"><svg class="clients-icon clients-icon_tr" width="84" height="47"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="client-icon" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M7.74 30.02h3.54V5.8H7.74v24.23ZM71.27 36.93h2.38v-7.42c0-2.44.7-3.39 1.39-3.39.67 0 1.25.77 1.25 2.87v7.94h2.35v-7.42c0-2.42.68-3.35 1.38-3.35.7 0 1.25.79 1.25 2.83v7.96h2.35V27.9c0-2.54-.49-3.9-1.22-4.74-.4-.48-.96-.78-1.52-.78-1 0-1.93.8-2.55 2.2-.56-1.4-1.46-2.19-2.32-2.19-.73 0-1.73.7-2.36 2.06v-1.88h-2.38v14.35ZM69.6 29.76c0-4.23-1.74-7.36-4.2-7.36-2.49 0-4.2 3.1-4.2 7.39 0 4.23 1.78 7.37 4.18 7.37 1.55 0 3.05-1.44 3.9-3.74l-1.56-1.76c-.58 1.54-1.38 2.27-2.17 2.27-1.03 0-1.9-1.35-2.02-3.3h6.05c.03-.3.03-.6.03-.87Zm-5.93-1.96c.3-1.54 1.02-2.36 1.72-2.36s1.4.82 1.68 2.36h-3.4ZM59.28 35.84v-5.89c-1.08 1.71-2.54 2.63-3.75 2.63-2.38 0-4.26-2.93-4.26-7.73 0-4.71 1.89-7.68 4.24-7.68 1.28 0 2.7.94 3.75 2.6V13.9a5.59 5.59 0 0 0-3.64-1.46c-4.08 0-7.14 5-7.14 12.5 0 4.57 1.18 8.17 3 10.3a5.42 5.42 0 0 0 4.07 2.08 5.5 5.5 0 0 0 3.73-1.48ZM41.07 30.05h2.83V24.2c0-2.18.27-2.86.56-3.37.38-.64.94-1.06 1.61-1.06.4 0 .79.16 1.14.44v-4.63c-1.17.14-2.38.99-3.32 2.51v-2.4h-2.83v14.36h.01ZM40.1 22.86c0-4.24-2.12-7.37-5.07-7.37-3.01 0-5.11 3.1-5.11 7.4 0 4.24 2.15 7.38 5.05 7.38 1.88 0 3.7-1.44 4.73-3.74l-1.9-1.78c-.69 1.55-1.65 2.27-2.62 2.27-1.23 0-2.3-1.35-2.43-3.29h7.3c.03-.3.05-.59.05-.87Zm-7.2-1.97c.36-1.55 1.23-2.38 2.09-2.38.85 0 1.69.83 2.03 2.38H32.9ZM25 30.05h2.87V18.86h1.75v-3.65H27.9V11.4H25v3.82h-1.03v3.65H25v11.2ZM13.37 30.05h2.89v-6.74c0-3.03 1.02-4.1 2.01-4.1.93 0 1.75.88 1.75 3.44v7.4h2.87v-7.4c0-3.33-.36-4.44-.74-5.2-.57-1.2-1.51-1.94-2.63-1.94-.76 0-1.28.2-2.09.84-.43.33-.82.76-1.19 1.25V15.7h-2.87v14.36Z"
+                                    fill="#0A0A0A" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M80.25 19.5h3.41V5.8H71.22a20.33 20.33 0 0 1 2.24 2.04l1.78-1.54c1.2 1.26 2.2 2.65 2.98 4.19l-2.05 1.45a15.03 15.03 0 0 1 1.24 4.4l2.53-.88c.21 1.12.32 2.27.32 3.43l-.01.62ZM65.49.26A18.11 18.11 0 0 1 70.73 2l-1.47 2.54a15.45 15.45 0 0 0-4.16-1.37l.4-2.92Zm-8.6.6C58.65.28 60.5 0 62.42 0v2.93c-1.6 0-3.14.24-4.6.7L56.88.85ZM49.3 5.53l.2-.2a18.09 18.09 0 0 1 4.18-3.12l1.36 2.6a15.08 15.08 0 0 0-3.71 2.85L49.3 5.53Zm.9 4.6-3.94-2.1.2 4.99 3.73-2.88ZM17.35 46.9a17.74 17.74 0 0 0 5.49-.62l-.91-2.8c-1.4.37-2.86.54-4.36.48l-.22 2.94Zm-9.95-2.77a17.93 17.93 0 0 0 5 2.55l.9-2.79a15.6 15.6 0 0 1-4.14-2.1l-1.76 2.34ZM1.62 37.1l.13.25c.8 1.6 1.78 3.02 2.97 4.3l2.11-2.02a15.3 15.3 0 0 1-2.6-3.88l-2.6 1.35Zm2.79-5.01L0 32.83l1.78-4.65 2.63 3.9ZM27.06 43.9a17.66 17.66 0 0 0 3.88-3.93l-2.46-1.6a15.06 15.06 0 0 1-3.08 3.1l1.66 2.43ZM84 19.73 84 5.48H62.1v14.35l21.89-.1Z"
+                                    fill="#009FE3" />
+                            </svg>
+
+                            </div>
+                            <p class="clients-review__text">“Pulvinar nisl nulla elit integer diam maecenas. Mauris nunc
+                                at
+                                arcu
+                                urna. Erat quisque neque, a augue lectus vitae faucibus facilisi. Aenean mauris duis sed
+                                congue
+                                magna scelerisque dolor eget in. Euismod eros, in cursus aliquam. Suspendisse odio est
+                                nullam
+                                vulputate quis nam ultricies.”</p>
+                            <p class="clients-review__name">Jack Carty</p>
+                            <p class="class-review__position orange">SEO</p>
+                        </div>
+                    </div>
+
+                    <!-- slide8 -->
+                    <div class="swiper-slide">
+                        <div class="clients-review clients-review__block ">
+                            <div class="clients-review__img"><svg class="clients-icon clients-icon_tr" width="86" height="7" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12.68.4h-1.6v6.02h1.6V.4ZM10.19 2.8H7.6V1.65h2.6V.4H6.06v6.02h4.13V5.18H7.6V4h2.6V2.79ZM5.11.4H3.54v2.35H0v3.67h1.57V4.04h1.97v2.38h1.57V.4ZM1.57.4H0v1.56h1.57V.4ZM31.88 2.8h.78c.41 0 .58-.06.7-.25a.68.68 0 0 0-.03-.78c-.18-.22-.48-.22-.74-.24h-.7v1.27Zm.79 2.44c.2 0 .33-.02.43-.06a.55.55 0 0 0 .38-.56c0-.06 0-.2-.1-.36-.19-.28-.51-.3-.82-.3h-.68v1.27h.79Zm-.79 1.15h-1.52v-6h2.5c.86.01 1.3.14 1.63.42.22.18.48.5.48 1.17 0 .12 0 .2-.02.31-.03.15-.12.6-.51.88-.14.1-.27.16-.42.22.14.05.46.16.71.46.23.27.34.59.34.94 0 .83-.49 1.2-.78 1.37-.38.2-.81.25-1.62.24h-.79ZM16 5.21c.57-.02 1.11-.14 1.53-.62.18-.2.43-.58.43-1.23 0-.51-.17-.85-.29-1.02-.4-.61-1.04-.75-1.75-.75l-.7.01v3.6l.78.01Zm-.78 1.2h-1.6v-6h1.81c.28-.02.56 0 .83 0h.52c.28.03 1.04.09 1.71.6.43.31 1.11 1.03 1.1 2.34 0 .19 0 .6-.18 1.1a2.94 2.94 0 0 1-1.9 1.81c-.3.1-.66.16-1.32.16H16l-.78-.02Zm11.73-6h-1.58v6h4.2v-1.3h-2.62V.4Zm-2.49 2.38h-2.59V1.65h2.6V.4h-4.13v6.02h4.12V5.18h-2.59V4h2.6V2.79Zm15.43 0H37.3V1.65h2.6V.4h-4.14v6.02h4.13V5.18H37.3V4h2.6V2.79ZM49.9 5.15V3.18h1.54l-.06 2.92c-.24.08-.48.13-.72.19a7.29 7.29 0 0 1-1.5.2h-.04c-.8 0-1.53-.19-2.16-.7a2.86 2.86 0 0 1-1.07-2.31A3.1 3.1 0 0 1 49.24.34c.95 0 1.6.23 1.96.36l-.4 1.1-.37-.14c-.3-.1-.66-.16-.98-.16-.13 0-.49.02-.86.18-1.01.45-1.1 1.49-1.1 1.8a1.77 1.77 0 0 0 1.82 1.81c.27 0 .49-.07.6-.14Zm-7.6-2.17V1.54h.7c.11.01.25.01.36.05.45.12.49.51.49.66 0 .25-.1.4-.17.47-.2.2-.42.23-.69.25H42.31Zm3.51 3.42L44.76 4.5c-.17-.25-.35-.56-.63-.72a.35.35 0 0 0-.17-.07c.1-.01.18-.02.28-.05.17-.04.32-.12.38-.14.17-.1.31-.21.43-.35.23-.29.34-.7.34-1.06.01-.47-.17-.8-.27-.96-.47-.7-1.31-.75-2.07-.75-.54 0-1.08-.02-1.6 0h-.67V6.4h1.53V4.14l.22.01c.12 0 .23.03.32.08.14.07.25.26.4.56l.82 1.61h1.74Zm34.66-6V1h1.92v5.44h.76V1h1.91V.41h-4.59Zm-5.53.23v5.8h.68V2.69l-.01-.57-.06-.73c.23.42.26.47.7 1.07l1.22 1.66 1.71 2.37.59-.25V.41h-.68v3.8c0 .52 0 .74.08 1.24a6.6 6.6 0 0 0-.84-1.33c-.39-.55-.8-1.09-1.2-1.63L75.58.36l-.64.27ZM70.68.41v6.04h3.25v-.61h-2.5V3.65h2.37v-.6h-2.37V.99h2.44V.41h-3.19Zm-7.25 0-1.07 5.95.7.12.3-1.78c.09-.56.2-1.12.28-1.68.1-.6.16-1.22.23-1.83.08.3.15.6.24.89l.2.52c.2.52.37 1.04.56 1.57l.82 2.28h.7c.37-1.01.75-2.02 1.14-3.02.06-.2.14-.4.22-.6l.28-.72.32-.94c0 .66.05 1.02.22 2.22.16 1.04.3 2.08.47 3.13l.71-.15-.96-5.96h-.74l-.65 1.65c-.17.43-.32.87-.5 1.3-.15.41-.32.8-.48 1.22-.13.35-.25.72-.37 1.09l-.21-.72c-.11-.34-.25-.67-.37-1.01l-.42-1.22c-.26-.77-.55-1.53-.82-2.3h-.8Zm-5.15 0v6.04h3.25v-.61h-2.51V3.65h2.38v-.6h-2.37V.99h2.44V.41h-3.2Zm-.82.5c-.13-.07-.26-.15-.4-.2a4.22 4.22 0 0 0-1.59-.33 3.1 3.1 0 0 0-2.49 1.14 3.13 3.13 0 0 0-.68 1.97c0 .89.35 1.76 1 2.34.78.68 1.65.74 2.02.74 1.04-.01 1.75-.41 2.09-.6l-.27-.5c-.55.26-1.06.5-1.7.5-1.06 0-1.63-.6-1.86-.91a2.64 2.64 0 0 1-.48-1.58c0-.34.05-1.3.83-1.96a2.33 2.33 0 0 1 1.55-.55c.66 0 1.02.14 1.28.26l.4.22.3-.54Z"
+                                    fill="#008238" />
+                            </svg>
+
+                            </div>
+                            <p class="clients-review__text">“Pulvinar nisl nulla elit integer diam maecenas. Mauris nunc
+                                at
+                                arcu
+                                urna. Erat quisque neque, a augue lectus vitae faucibus facilisi. Aenean mauris duis sed
+                                congue
+                                magna scelerisque dolor eget in. Euismod eros, in cursus aliquam. Suspendisse odio est
+                                nullam
+                                vulputate quis nam ultricies.”</p>
+                            <p class="clients-review__name">Jack Carty</p>
+                            <p class="class-review__position orange">SEO</p>
+                        </div>
+                    </div>
+
+                    <!-- slide9 -->
+                    <div class="swiper-slide">
+                        <div class="clients-review clients-review__block ">
+                            <div class="clients-review__img"><svg class="clients-icon clients-icon_tr" width="91" height="20"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 9.21v8.46H9.63V13.4H4.84V.75H0V9.2Z" fill="#5F5046" />
+                                <path d="M12.07 3.7v2.96h-6v4.28h6v6.73h4.86V.75h-4.86V3.7Z" fill="#877873" />
+                                <path
+                                    d="M81.56 10.5a.81.81 0 0 0-.59.45.6.6 0 0 0-.07.31.78.78 0 0 0 .43.76c.14.07.25.09.43.08.15 0 .19-.02.3-.07.47-.24.6-.82.28-1.24a.84.84 0 0 0-.78-.3ZM36.68 10.64c-.12 0-.28.03-.36.04-.44.1-.83.39-1.03.76-.12.24-.17.52-.18 1.02l-.02.34h-.69V14h.7v3.67h1.4V14h1.01v-1.2h-.5l-.51-.01v-.29c0-.22 0-.3.03-.37.09-.26.34-.37.8-.34a3 3 0 0 1 .25.02l.05.01v-1.14l-.05-.01a6.98 6.98 0 0 0-.9-.03ZM73.09 14.21v3.46h1.45v-6.92h-1.45v3.46ZM23.69 14.3v3.37h4.1v-1.35h-2.64v-5.38h-1.46v3.37ZM60.28 14.3v3.37h1.47v-2.8h2.7v2.8h1.48v-6.73h-1.48v2.6h-2.7v-2.6h-1.47v3.37ZM69.09 12.68c-1 .14-1.8.77-2.13 1.68-.1.29-.13.47-.13.88a2.52 2.52 0 0 0 2.13 2.53c.3.05.78.05 1.08 0a2.56 2.56 0 0 0 .21-5.02 3.4 3.4 0 0 0-1.16-.07Zm.73 1.32a1.22 1.22 0 0 1 .96 1.23 1.22 1.22 0 0 1-.67 1.14c-.35.16-.7.18-1.04.06-.18-.06-.31-.14-.46-.3a1.2 1.2 0 0 1-.33-.58 1.5 1.5 0 0 1 .03-.75c.11-.33.38-.62.7-.75.24-.1.55-.12.81-.05ZM77.7 12.68a2.55 2.55 0 0 0-2.23 3.03c.07.36.2.7.39 1 .12.17.44.5.62.62a3.13 3.13 0 0 0 2.23.4c.45-.09.9-.32 1.28-.69l.16-.15-.03-.04a34.9 34.9 0 0 0-.46-.45l-.43-.4-.11.1a1.37 1.37 0 0 1-1.65.21c-.13-.07-.35-.3-.43-.42a1.35 1.35 0 0 1-.02-1.3c.07-.15.32-.4.46-.48.17-.1.37-.15.57-.16.42-.03.76.1 1.07.4l.12.1.4-.4.45-.44.06-.06-.07-.07c-.19-.2-.51-.43-.77-.56a2.86 2.86 0 0 0-.66-.22 4.29 4.29 0 0 0-.95-.02ZM56.26 12.7c-1.13.16-1.92.9-2.14 1.98-.06.27-.06.82 0 1.1.06.37.22.76.43 1.04.56.75 1.61 1.1 2.77.9.53-.08 1-.31 1.37-.66l.15-.14-.4-.4-.4-.4-.1.07a1.7 1.7 0 0 1-.91.4c-.76.09-1.41-.27-1.5-.84l-.02-.08h3.55l.02-.1v-.32c0-1.32-.69-2.27-1.84-2.52a3.83 3.83 0 0 0-.98-.03Zm.66 1.14c.4.1.7.42.75.8v.1h-2.14v-.09a.95.95 0 0 1 .63-.75c.23-.08.54-.1.76-.06ZM46.9 12.7c-.22.04-.33.08-.48.15a.9.9 0 0 0-.31.22c-.09.1-.17.2-.2.26l-.07.12v-.65H44.4v4.87h1.43v-1.33c.02-1.5.01-1.44.15-1.73a.96.96 0 0 1 .65-.53 4.38 4.38 0 0 1 .84-.03l.08.02v-.67c0-.62 0-.67-.03-.68a4.55 4.55 0 0 0-.62-.02ZM85.98 12.72c-.4.07-.76.3-.9.6l-.06.07c-.01 0-.02-.13-.02-.3v-.3h-1.4V17.68H85l.01-1.46c0-1.34 0-1.48.04-1.58.08-.29.25-.5.47-.6.1-.06.13-.06.3-.06.18 0 .2 0 .31.06.2.1.3.25.38.52.03.12.03.2.03 1.63v1.5h1.43V16.2c.01-1.65 0-1.56.14-1.82a.88.88 0 0 1 .39-.37.68.68 0 0 1 .3-.04c.16 0 .19 0 .28.05.13.06.24.17.32.32.1.22.1.21.1 1.85v1.48h1.44l-.01-1.69c0-1.86 0-1.81-.12-2.17-.1-.3-.24-.52-.45-.72-.27-.25-.6-.37-1.06-.4-.74-.02-1.28.18-1.58.6l-.09.14s-.05-.05-.09-.12a1.24 1.24 0 0 0-.64-.52c-.25-.1-.64-.12-.92-.07ZM30.4 12.72l-.24.05c-1.2.24-1.99 1.37-1.89 2.68.04.52.17.9.44 1.3a2.4 2.4 0 0 0 2.47.94c.42-.09.78-.3.92-.58l.04-.07v.32l.01.31h1.43V12.8h-1.43v.3l-.01.3-.07-.1c-.1-.19-.37-.39-.7-.49a2.72 2.72 0 0 0-.97-.09Zm.83 1.32a1.22 1.22 0 0 1 .84 1.8c-.07.12-.31.37-.44.44-.22.12-.53.2-.77.17a1.23 1.23 0 0 1-1.14-1.08 1.3 1.3 0 0 1 .19-.8c.07-.12.25-.3.37-.37.26-.16.62-.23.95-.16ZM40.02 12.73a2.38 2.38 0 0 0-1.94 1.65c-.22.67-.16 1.48.14 2.09.3.6.84 1.04 1.5 1.2.85.2 1.77-.04 2.04-.53l.05-.1v.63h1.43V12.8h-1.42v.62l-.05-.1a1.1 1.1 0 0 0-.45-.4c-.19-.1-.35-.15-.59-.18-.19-.03-.51-.04-.7-.01Zm.89 1.31c.44.1.8.39.94.8.06.18.07.47.03.66-.09.4-.38.73-.77.87-.74.27-1.5-.12-1.69-.85a1.3 1.3 0 0 1 .15-.93c.12-.2.36-.4.58-.49.23-.09.53-.1.76-.06ZM50.01 12.72c-.53.06-1.05.31-1.43.7-.61.63-.85 1.6-.62 2.51.14.57.49 1.07.95 1.36.46.3 1.03.44 1.62.38.56-.04 1-.23 1.2-.5l.05-.08v.24c-.03.73-.33 1.13-.97 1.3-.2.05-.67.06-.9.02a3.23 3.23 0 0 1-.98-.36l-.15-.08-.33.53-.33.53.12.08c.16.1.55.3.72.35a4.46 4.46 0 0 0 2.37.12 2.46 2.46 0 0 0 1.33-.84c.18-.25.35-.64.42-1.02.08-.4.08-.37.09-2.82V12.8h-1.42v.63l-.04-.07c-.18-.4-.76-.66-1.43-.65l-.27.01Zm.96 1.35c.53.18.86.62.86 1.16 0 .61-.44 1.1-1.09 1.2-.37.05-.77-.07-1.05-.34-.15-.15-.25-.3-.31-.5a.88.88 0 0 1-.05-.36c0-.2 0-.25.05-.37.14-.43.46-.72.91-.82.17-.04.5-.03.68.03ZM81 15.24v2.43h1.43V12.8H81v2.44Z"
+                                    fill="#5F5046" />
+                            </svg>
+
+                            </div>
+                            <p class="clients-review__text">“Pulvinar nisl nulla elit integer diam maecenas. Mauris nunc
+                                at
+                                arcu
+                                urna. Erat quisque neque, a augue lectus vitae faucibus facilisi. Aenean mauris duis sed
+                                congue
+                                magna scelerisque dolor eget in. Euismod eros, in cursus aliquam. Suspendisse odio est
+                                nullam
+                                vulputate quis nam ultricies.”</p>
+                            <p class="clients-review__name">Jack Carty</p>
+                            <p class="class-review__position orange">SEO</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="clients-container__navigation">
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+</section>
+		<section class="company">
+    <div class="container">
+        <p class="company__wrapper text-md">Holistic. Agile. Reliable</p>
+        <ul class="company-list company-list_margin">
+            <li class="company__item1">
+                <p class="company-item__subtitle orange">With this triad we line up to support you to realize your
+                    projects
+                    successfully.</p>
+
+                    <a class="company-item__arrow" href="#!">                
+                <svg xmlns="http://www.w3.org/2000/svg" width="37" height="23" viewBox="0 0 37 23" fill="none">
+                    <path
+                        d="M36.0607 12.8605C36.6464 12.2747 36.6464 11.3249 36.0607 10.7391L26.5147 1.1932C25.9289 0.607414 24.9792 0.607414 24.3934 1.1932C23.8076 1.77899 23.8076 2.72873 24.3934 3.31452L32.8787 11.7998L24.3934 20.2851C23.8076 20.8709 23.8076 21.8206 24.3934 22.4064C24.9792 22.9922 25.9289 22.9922 26.5147 22.4064L36.0607 12.8605ZM1.31134e-07 13.2998L35 13.2998L35 10.2998L-1.31134e-07 10.2998L1.31134e-07 13.2998Z"
+                        fill="#FF7C40" /></svg></a>
+            </li>
+            <li class="company__item2">
+                <p class="company__text"><span class="company__text-space">Today’s construction projects are notable for
+                        the diversity of their
+                        requirements.
+                        While
+                        you want your buildings to be safe, economical, and durable, they primarily serve your
+                        operations.
+                        Our
+                        deep
+                        industry knowledge helps to optimally incorporate the variety of usage requirements of the
+                        cement
+                        production
+                        processes into civil design.</span>
+                    We constantly achieve client success by following these three core values for all projects our
+                    clients
+                    trust
+                    us
+                    with.
+                </p>
+            </li>
+            <li class="company__item3">
+                <h4 class="company__item-title h4">Holistic planning</h4>
+                <p class="company__item-text text-sm light-gray">Through continuous consideration of all circumstances,
+                    we create
+                    futureproof
+                    buildings and
+                    frictionless construction workflows. Systematic implementation of this holistic approach helps us to
+                    keep
+                    the
+                    bird’s-eye view over all interfaces. We are proactively making sure that all included parties can
+                    focus
+                    on
+                    working towards the optimal project result.
+                </p>
+            </li>
+            <li class="company__item4">
+                <h4 class="company__item-title h4">Agile acting</h4>
+                <p class="company__item-text text-sm light-gray">Our team can put results down on paper rapidly. In a
+                    world that is
+                    increasingly
+                    characterized by
+                    changing and adapting to uncertain circumstances, we can flexibly execute on multiple iterations of
+                    the
+                    project
+                    in close consultation with the client. This allows us to cater to your construction needs until the
+                    last
+                    phases
+                    of planning.
+                </p>
+            </li>
+            <li class="company__item5">
+                <h4 class="company__item-title h4">Reliable realisation.</h4>
+                <p class="company__item-text text-sm light-gray">
+                    We prioritize project success over everything. Based on our decades of experience we have developed
+                    the
+                    highest
+                    quality standards and demonstrate with every new project our commitment to meeting and exceeding
+                    client
+                    expectations.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+		<section class="team">
+    <div class="container">
+        <h2 class="h2 team__main-title">Meet the Team</h2>
+        <p class="team__subtitle orange">These are the experts that turn ideas into reality</p>
+        <!-- Leadership Team -->
+        <div class="leadership leadership__team">
+            <h3 class="team-title leadership__title">Leadership Team</h3>
+            <div class="leadership__container">
+                <div class="leadership__container-block">
+                    <div class="leadership__img-block">
+                        <img class="leadership__img" src="/img/background-mob/tim.png" alt="Tim">
+                        <svg class="leadership__svg--first" xmlns="http://www.w3.org/2000/svg" width="245" height="196"
+                            viewBox="0 0 245 196" fill="none">
+                            <path d="M216.529 195.719L-0.000593136 31.5894L244.325 0.799207L216.529 195.719Z"
+                                fill="#DA5D24" />
+                        </svg>
+                    </div>
+
+                    <div class="leadership__list">
+                        <p class="leadership__name">Tim-Nicolas Mollenhauer</p>
+                        <p class="leadership__position"><span></span>CEO</p>
+                        <p class="leadership__text-sm light-gray">Viverra in turpis vitae tincidunt.
+                            Odio
+                            nunc
+                            netus
+                            consectetur libero duis. Est quis
+                            vitae, sed egestas vehicula.</p>
+                        <div class="leadership__icon">
+                            <a class="leadership__link" href="https://www.linkedin.com">
+                                <svg class="linkedin" xmlns="http://www.w3.org/2000/svg" width="20" height="25"
+                                    viewBox="0 0 20 25" fill="none">
+                                    <g clip-path="url(#clip0_30_1362)">
+                                        <path
+                                            d="M18.5714 1.74707H1.42408C0.638362 1.74707 -3.05176e-05 2.42676 -3.05176e-05 3.26113V21.233C-3.05176e-05 22.0674 0.638362 22.7471 1.42408 22.7471H18.5714C19.3571 22.7471 20 22.0674 20 21.233V3.26113C20 2.42676 19.3571 1.74707 18.5714 1.74707ZM6.04461 19.7471H3.08033V9.72519H6.04908V19.7471H6.04461ZM4.56247 8.35645C3.61158 8.35645 2.84372 7.54551 2.84372 6.55176C2.84372 5.55801 3.61158 4.74707 4.56247 4.74707C5.5089 4.74707 6.28122 5.55801 6.28122 6.55176C6.28122 7.5502 5.51336 8.35645 4.56247 8.35645ZM17.1562 19.7471H14.1919V14.8721C14.1919 13.7096 14.1696 12.2143 12.6518 12.2143C11.1071 12.2143 10.8705 13.4799 10.8705 14.7877V19.7471H7.90622V9.72519H10.75V11.0939H10.7901C11.1875 10.3064 12.1562 9.47676 13.5982 9.47676C16.5982 9.47676 17.1562 11.5533 17.1562 14.2533V19.7471Z"
+                                            fill="#1074AF" />
+                                    </g></a>
+                            <defs>
+                                <clipPath id="clip0_30_1362">
+                                    <rect width="20" height="24" fill="white"
+                                        transform="translate(-3.05176e-05 0.24707)" />
+                                </clipPath>
+                            </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="leadership__container-block">
+                    <div class="leadership__img-block">
+                        <img class="leadership__img" src="/img/background-mob/claus.png" alt="Claus">
+                        <svg class="leadership__svg--second" xmlns="http://www.w3.org/2000/svg" width="243" height="197"
+                            viewBox="0 0 243 197" fill="none">
+                            <path d="M13.9059 0.540599L242.179 147.902L0.864644 197L13.9059 0.540599Z" fill="#06255B" />
+                        </svg>
+                    </div>
+                    <div class="leadership__list">
+                        <p class="leadership__name">Klaus-Dieter Mollenhauer</p>
+                        <p class="leadership__position">Creative Director</p>
+                        <p class="leadership__text-sm light-gray">Duis aenean ultricies ullamcorper
+                            neque
+                            cras
+                            vel.
+                            Quam
+                            sem turpis
+                            est
+                            morbi nunc odio feugiat pellentesque. Eget risus lectus donec tempus cras. Amet amet, auctor
+                            habitasse
+                            tristique pellentesque id velit.</p>
+                        <div class="leadership__icon">
+                            <a class="leadership__link" href="https://www.linkedin.com">
+                                <svg class="linkedin" xmlns="http://www.w3.org/2000/svg" width="20" height="25"
+                                    viewBox="0 0 20 25" fill="none">
+                                    <g clip-path="url(#clip0_30_1362)">
+                                        <path
+                                            d="M18.5714 1.74707H1.42408C0.638362 1.74707 -3.05176e-05 2.42676 -3.05176e-05 3.26113V21.233C-3.05176e-05 22.0674 0.638362 22.7471 1.42408 22.7471H18.5714C19.3571 22.7471 20 22.0674 20 21.233V3.26113C20 2.42676 19.3571 1.74707 18.5714 1.74707ZM6.04461 19.7471H3.08033V9.72519H6.04908V19.7471H6.04461ZM4.56247 8.35645C3.61158 8.35645 2.84372 7.54551 2.84372 6.55176C2.84372 5.55801 3.61158 4.74707 4.56247 4.74707C5.5089 4.74707 6.28122 5.55801 6.28122 6.55176C6.28122 7.5502 5.51336 8.35645 4.56247 8.35645ZM17.1562 19.7471H14.1919V14.8721C14.1919 13.7096 14.1696 12.2143 12.6518 12.2143C11.1071 12.2143 10.8705 13.4799 10.8705 14.7877V19.7471H7.90622V9.72519H10.75V11.0939H10.7901C11.1875 10.3064 12.1562 9.47676 13.5982 9.47676C16.5982 9.47676 17.1562 11.5533 17.1562 14.2533V19.7471Z"
+                                            fill="#1074AF" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_30_1362">
+                                            <rect width="20" height="24" fill="white"
+                                                transform="translate(-3.05176e-05 0.24707)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="leadership__hr">
+        </div>
+
+        <!-- Engineers -->
+        <div class="team-card engineers__card">
+            <h3 class="team-title engineers__title">Engineers</h3>
+            <ul class="team-list team__container">
+                <li class="team-item">
+                    <div class="team__card-list">
+                        <div class="team__img-block"> <img class="team__img" src="/img/background-mob/bernhard.png"
+                                alt="Bernhard"></div>
+                        <p class="team__name">Bernhard
+                            Meyer</p>
+                        <p class="team__position">Senior Steel Structures Engineer</p>
+                    </div>
+                </li>
+                <li class="team-item">
+                    <div class="team__card-list">
+                        <div class="team__img-block"><img class="team__img" src="/img/background-mob/alexander.png"
+                                alt="Alexander"></div>
+                        <p class="team__name">Alexander
+                            Jung</p>
+                        <p class="team__position">Project Engineer</p>
+                    </div>
+                </li>
+                <li class="team-item">
+                    <div class="team__card-list">
+                        <div class="team__img-block"><img class="team__img" src="/img/background-mob/stefan1.png"
+                                alt="Stefan"></div>
+                        <p class="team__name">Stefan
+                            Schniedermeier</p>
+                        <p class="team__position">Project Engineer</p>
+                    </div>
+                </li>
+                <li class="team-item">
+                    <div class="team__card-list">
+                        <div class="team__img-block"><img class="team__img" src="/img/background-mob/stefan2.png"
+                                alt="Stefan"></div>
+                        <p class="team__name">Stefan
+                            Wiek</p>
+                        <p class="team__position">Project Engineer</p>
+                    </div>
+                </li>
+                <li class="team-item">
+                    <div class="team__card-list">
+                        <div class="team__img-block"><img class="team__img" src="/img/background-mob/you.png" alt="You">
+                        </div>
+                        <p class="team__name">You?<a href=""></a></p>
+                        <p class="team__position">Senior Engineer Concrete</p>
+                    </div>
+                </li>
+            </ul>
+            <hr class="team__hr">
+        </div>
+        <!-- Technical staff -->
+        <div class="team-card technical-staff__card">
+            <h3 class="team-title technical-staff__title">Technical stuff</h3>
+            <ul class="team-list team__container">
+                <li class="team-item">
+                    <div class="team__card-list">
+                        <div class="team__img-block"><img class="team__img" src="/img/background-mob/domenik.png"
+                                alt="Domenik"></div>
+                        <p class="team__name">Domenik
+                            Schmidt</p>
+                        <p class="team__position">Head of Layout & Design</p>
+                    </div>
+                </li>
+                <li class="team-item">
+                    <div class="team__card-list">
+                        <div class="team__img-block"><img class="team__img" src="/img/background-mob/manuela.png"
+                                alt="Manuela"></div>
+                        <p class="team__name">Manuela
+                            Sonntag</p>
+                        <p class="team__position">Reinforcement
+                            Technician</p>
+                    </div>
+                </li>
+                <li class="team-item">
+                    <div class="team__card-list">
+
+                        <div class="team__img-block"><img class="team__img" src="/img/background-mob/bernhard.png"
+                                alt="Mark"></div>
+                        <p class="team__name">Mark
+                            Peters</p>
+                        <p class="team__position">Planning Permission Design</p>
+                    </div>
+                </li>
+                <li class="team-item">
+                    <div class="team__card-list">
+                        <div class="team__img-block"><img class="team__img" src="/img/background-mob/alexander.png"
+                                alt="Katarina"></div>
+                        <p class="team__name">Katarina
+                            Maslanova</p>
+                        <p class="team__position">Structural Drawings</p>
+                    </div>
+                </li>
+                <li class="team-item">
+                    <div class="team__card-list">
+                        <div class="team__img-block"><img class="team__img" src="/img/background-mob/stefan1.png"
+                                alt="Benedikt"></div>
+                        <p class="team__name">Benedikt
+                            Schröder-Schlüter</p>
+                        <p class="team__position">Structural Drawings</p>
+                    </div>
+                </li>
+                <li class="team-item">
+                    <div class="team__card-list">
+                        <div class="team__img-block"><img class="team__img" src="/img/background-mob/stefan2.png"
+                                alt="Michael"></div>
+                        <p class="team__name">Michael
+                            Dick</p>
+                        <p class="team__position">Structural Drawings</p>
+                    </div>
+                </li>
+            </ul>
+            <hr class="team__hr">
+        </div>
+
+        <div class="team-row">
+            <!-- Engineering Trainees -->
+            <div class="team-card trainees__card">
+                <h3 class="team-title trainess__title">Engineering Trainees</h3>
+                <ul class="team-list team__container">
+                    <li class="team-item">
+                        <div class="team__card-list">
+                            <div class="team__img-block"><img class="team__img" src="/img/background-mob/stefan1.png"
+                                    alt="Najwa"></div>
+                            <p class="team__name">Najwa
+                                Hasan</p>
+                            <p class="team__position">Assistent to the Management</p>
+                        </div>
+                    </li>
+                    <li class="team-item">
+                        <div class="team__card-list">
+                            <div class="team__img-block"><img class="team__img" src="/img/background-mob/stefan2.png"
+                                    alt="Leonie"></div>
+                            <p class="team__name">Leonie
+                                Kahr</p>
+                            <p class="team__position">Assistent to the Management</p>
+                        </div>
+                    </li>
+                </ul>
+                <hr class="leadership__hr trainees__hr">
+            </div>
+            <!-- Other Team Members -->
+            <div class="team-card other__card">
+                <h3 class="team-title other__title">Other Team Members</h3>
+                <ul class="team-list team__container">
+                    <li class="team-item">
+                        <div class="team__card-list">
+                            <!-- <div class="team-img__container"> -->
+                            <div class="team__img-block">
+                                <img class="team__img" src="/img/background-mob/manuela.png" alt="Michelle">
+                            </div>
+                            <svg class="team__svg" xmlns="http://www.w3.org/2000/svg" width="126" height="101"
+                                viewBox="0 0 126 101" fill="none">
+                                <path d="M111.627 100.563L0.534669 16.3556L125.888 0.558543L111.627 100.563Z"
+                                    fill="#DA5D24" />
+                            </svg>
+                            <p class="team__name">Michelle
+                                Michalik</p>
+                            <p class="team__position">Assistent to the Management</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="leadership__hr">
+
+    </div>
+    <div class="team__rectangle"><svg class="team__svg-rectangle" xmlns="http://www.w3.org/2000/svg" width="143"
+            height="157" viewBox="0 0 143 157" fill="none">
+            <path d="M7.62939e-06 156.8L8.10418e-07 0.799805L143 156.8L7.62939e-06 156.8Z" fill="#06255B" />
+        </svg></div>
+</section>
+		<!-- Подключаем яндекс карту -->
+<div class="ya-map">
+    <div id="map" class="map">
+        <div class="map-modal">
+            <div class="map-modal__logo">
+                <svg class="map-modal__img" xmlns="http://www.w3.org/2000/svg" width="72" height="56"
+                    viewBox="0 0 72 56" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M55.5307 34.1157L39.0614 17.4578L55.5307 0.799805L72 17.4578L55.5307 34.1157ZM40.3628 55.7998H33.3654V39.5655C33.3654 37.855 33.0964 36.5597 32.5754 35.6875C32.0545 34.8154 31.2374 34.3791 30.1239 34.3791C29.0463 34.3791 28.0582 34.6338 27.1601 35.1426C26.2614 35.6514 25.1122 36.419 23.7112 37.4311V38.1397V55.7998H16.7183V39.5655C16.7183 37.855 16.4448 36.5597 15.9239 35.6875C15.403 34.8154 14.5858 34.3791 13.4724 34.3791C12.3941 34.3791 11.4059 34.6338 10.5079 35.1426C9.61257 35.6514 8.44276 36.4323 7.00593 37.4861V55.7998H7.62939e-06V29.3642H4.58093L5.76592 32.1984C7.38238 31.0381 9.05317 30.1277 10.7776 29.4735C12.5021 28.8192 14.0105 28.4921 15.3042 28.4921C18.8605 28.4921 21.2676 29.6913 22.5255 32.0898C24.1456 30.9637 25.7942 30.0822 27.4829 29.446C29.1716 28.8105 30.6621 28.4921 31.9558 28.4921C34.9375 28.4921 37.0841 29.3012 38.3957 30.9181C39.7066 32.5349 40.3628 34.9421 40.3628 38.1397V55.7998Z"
+                        fill="#06255B" />
+                </svg>
+            </div>
+            <div class="contacts">
+                <p class="contacts__title">Contacts:</p>
+                <p class="contacts__text contacts__text_w">Erwitter Str. 40
+                    59590 Geseke
+                    GERMANY</p>
+                <p class="contacts__text">+49 29 42 / 97 83
+                    71</p>
+                <p class="contacts__text"><a class="contacts__link orange" href="mailto:info@m-bp.de">info@m-bp.de</a>
+                </p>
+                <hr class="contacts__hr">
+                <div class="social contacts__social">
+                    <p class="social__title contacts__title contacts__title_m">Our Social Media:</p>
+                    <p class="social__media"><a class="instagram social__link" href="https://www.instagram.com/">Ig</a>
+                    </p>
+                    <p class="social__media"><a class="facebook social__link" href="">Fb</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	</main>
+	<footer class="footer">
+	<div class="container">
+		<ul class="footer-list">
+			<li class="footer__text-item"><a class="footer__link" href="#!">Imprint l Data Privacy</a></li>
+			<li class="footer__text-item"><a class="footer__link" href="#!">Copyright : mbp | Mollenhauer Beraten &
+					Planen GmbH</a></li>
+			<li class="footer__text-item"><a class="footer__link" href="#!">Consulting & Structural Engineering
+					Design</a></li>
+		</ul>
+	</div>
+</footer>
+	
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=c1b4b7eb-1023-4b26-948c-f5ee32eb02e5&lang=en_US"></script>
+	<script src="./js/index.bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	touch-action: none; 
+}
+
+body {
+	// background-color: $page-bg;
+	background-color: #F7F9FC;
+	color: $text-color;
+	font-family: $font-main;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+.btn {
+	padding: 19px 18px 19px 18px;
+}
+
+// colors
+.white {
+	color: $white;
+}
+
+.dark-blue {
+	color: #06255B
+}
+
+.light-gray {
+	color: $light-gray;
+}
+
+.orange {
+	color: $orange;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.scroll-arrow {
+	position: relative;
+	z-index: 10;
+}
+
+// .bg-hidden {
+// 	overflow: hidden;
+// }
+
+//Navigation swiper
+:root {
+	--swiper-navigation-size: 20px !important;
+}
+
+:root {
+	--swiper-theme-color: orange !important;
+}
+
+.swiper-button-next {
+	display: none !important;
+
+	@media only screen and (min-width: $lg) {
+		position: inherit;
+		display: flex !important;
+		justify-items: center;
+		align-items: center;
+		justify-content: center;
+		background-color: #DA5D24 !important;
+		color: $white !important;
+		padding: 36px;
+	}
+}
+
+.swiper-button-prev {
+	display: none !important;
+
+	@media only screen and (min-width: $lg) {
+		position: inherit;
+		display: flex !important;
+		justify-items: center;
+		align-items: center;
+		justify-content: center;
+		background-color: #06255B !important;
+		color: $white !important;
+		padding: 36px;
+	}
+}
+
+.mobile-none {
+	display: none;
+
+	@media only screen and (min-width: $lg) {
+		display: block;
+	}
+}
+
+.d-block {
+	display: block;
+}
+

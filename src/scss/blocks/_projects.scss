@@ -1,0 +1,311 @@
+.projects {
+        position: relative;
+        z-index: 1;
+
+    &_margin {
+        margin: 650px 0 121px 0;
+
+        @media only screen and (min-width: 612px) {
+            margin: 350px 0 0 0;
+        }
+
+        @media only screen and (min-width: $md) {
+            margin: 220px 0 94px 0;
+        }
+
+        @media only screen and (min-width: $lg) {
+            margin: 450px 0 177px 0;
+        }
+
+        &::before {
+            content: "";
+            display: flex;
+            margin: 0 auto;
+            position: relative;
+            z-index: -1;
+            background: linear-gradient(45deg, rgba(247, 249, 252, 1) 50%, rgba(0, 212, 255, 0) 50%);
+            top: 10%;
+        }
+    }
+
+    &-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title,
+    &__text {
+        position: relative;
+        z-index: 2;
+        margin: 0 0 24px 0;
+        text-align: center;
+    }
+
+    &__title {
+        text-align: center;
+        width: 357px;
+
+        @media only screen and (min-width: $md) {
+            width: 414px;
+        }
+
+        @media only screen and (min-width: $lg) {
+            width: 536px;
+        }
+    }
+
+    &__text {
+        width: 357px;
+        margin: 0 0 24px 0;
+
+        @media only screen and (min-width: $md) {
+            width: 439px;
+            margin: 0 0 21px 0;
+        }
+
+        @media only screen and (min-width: $lg) {
+            width: 448px;
+            margin: 0 0 51px 0;
+        }
+    }
+
+    &-list {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 40px;
+
+        &_margin {
+            margin: 0 0 112px 0;
+
+            @media only screen and (min-width: $md) {
+                margin: 0 0 94px 0;
+            }
+
+            @media only screen and (min-width: $lg) {
+                margin: 0 0 184px 0;
+            }
+        }
+
+        @media only screen and (min-width: $md) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas:
+                "projects-list__item1 projects-list__item2"
+                "projects-list__item3 projects-list__item4";
+            justify-content: space-between;
+            justify-items: stretch;
+            grid-auto-flow: column;
+        }
+
+        @media only screen and (min-width: $lg) {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas:
+                "projects-list__item1 projects-list__item2 projects-list__item2"
+                "projects-list__item3 projects-list__item4 .";
+            gap: 24px;
+        }
+
+        &__title,
+        &__text {
+            position: relative;
+            z-index: 2;
+        }
+
+        &__title {
+            max-width: 400px;
+
+            @media only screen and (min-width: $md) {
+                max-width: unset;
+                width: 340px;
+            }
+
+            @media only screen and (min-width: $lg) {
+                width: 536px;
+            }
+        }
+
+        &__text {
+            max-width: 450px;
+
+            @media only screen and (min-width: $md) {
+                max-width: unset;
+                width: 437px;
+            }
+        }
+
+        &__item1 {
+            grid-area: projects-list__item1;
+        }
+
+        &__item2 {
+            grid-area: projects-list__item2;
+
+            @media only screen and (min-width: $lg) {
+                columns: 2 405px;
+            }
+        }
+
+        &__item3 {
+            grid-area: projects-list__item3;
+        }
+
+        &__item4 {
+            grid-area: projects-list__item4;
+        }
+    }
+}
+
+.project-cards {
+    position: relative;
+
+    &::after {
+        content: "";
+        display: flex;
+        background-image: url('/img/background-mob/layout.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 97px;
+        position: absolute;      
+        bottom: 3px;
+    }
+
+    &__grid {
+        justify-content: flex-start;
+        align-items: center;
+
+        @media screen and (min-width: $lg) {
+            justify-content: center;
+        }
+    }
+
+    &-slide {
+        width: 358px;
+        height: 641px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 55% 45%;
+
+        @media screen and (min-width: $md) {
+            width: auto;
+            height: 355px;
+        }
+
+        @media screen and (min-width: $xl) {
+            min-width: 248px;
+            height: 488px;
+        }
+
+        &__img {
+            background: #ffffff00;
+            width: inherit;
+            height: inherit;
+            background-position: inherit;
+            object-position: inherit;
+            position: relative;
+            transition: 1s .2s ease-in-out;
+            transition-duration: .2s;
+            display: block;
+            top: 0px;
+            text-decoration: none;
+            z-index: 0;
+            overflow: hidden;
+
+            &:hover {
+                transition: all 0.4s ease-out;
+                box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.4);
+                top: -3px;
+                border: 1px solid #cccccc;
+                background-color: white;
+                background-image: url('/img/background-mob/swiper-crane.png');
+                background-repeat: inherit;
+                background-size: inherit;
+                z-index: 1;
+            }
+        }
+
+        &__text:hover {
+            color: $white;
+        }
+
+        &__number {
+            // font-family: Source Sans Pro;
+            pointer-events: none;
+            color: #DA5D24;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 100%; // 20px 
+            letter-spacing: 0.218px;
+            left: 22px;
+            top: 34px;
+            position: absolute;
+
+            &::after {
+                position: absolute;
+                content: "";
+                background-image: url('/img/background-mob/plus.svg');
+                width: 16.642px;
+                height: 16.642px;
+                left: 95%;
+                top: 75%;
+            }
+
+            @media screen and (min-width: $md) {
+                left: 27px;
+                top: 40px;
+            }
+
+            @media screen and (min-width: $lg) {
+                left: 37px;
+                top: 55px;
+            }
+        }
+
+        &__link {
+            color: black;
+            display: block;
+            height: 100%;
+            border: 0.727px solid #E2E2E2;
+
+            &:hover {
+                color: $white !important;
+                text-shadow: -2px -2px 2px rgba(255, 255, 255, .1), 2px 2px 2px rgba(0, 0, 0, .8);
+            }
+        }
+
+        &__text {
+            // font-family: Mulish;
+            position: absolute;
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 100%; // 17px 
+            letter-spacing: 0.218px;
+            width: 62%;
+            height: 150px;
+            margin: 0 0 0 22px;
+            bottom: 21%;
+            transition: 1s .2s ease-in-out;
+            transition-duration: .25s;
+
+            @media screen and (min-width: $md) {
+                font-size: 13px;
+                font-weight: 700;
+                width: 88%;
+                margin: 0 0 0 27px;
+                height: 100px;
+                bottom: 16%;
+            }
+
+            @media screen and (min-width: $lg) {
+                font-size: 17px;
+                letter-spacing: 0.3px;
+                width: 75%;
+                margin: 0 0 0 37px;
+                bottom: 24%;
+            }
+        }
+    }
+}

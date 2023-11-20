@@ -1,0 +1,22 @@
+.logo {
+	z-index: 5;
+	fill: white;
+	position: relative;
+	width: 218px;
+	height: 38px;
+	flex-shrink: 0;
+
+	@media only screen and (min-width: $md) {
+		width: 238px;
+		height: 42px;
+		flex: 1;
+	}
+
+	@media only screen and (min-width: $xl) {
+		margin-left: -60px;
+		width: 263px;
+		height: 46px;
+		transform: translateX(10px);
+		flex: unset;
+	}
+}

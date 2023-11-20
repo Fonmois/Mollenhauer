@@ -1,0 +1,24 @@
+.header {
+	background-color: transparent;
+	padding: 12px 0;
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		max-height: 54px;
+	}
+}
+
+.nav-media {
+	display: none !important;
+
+	@media only screen and (min-width: $lg) {
+		display: block !important;
+		z-index: 99;
+		display: flex !important;
+		flex-direction: row;
+		margin: -33px 0 0 0;
+		transform: translateY(37px);
+	}
+}

@@ -1,0 +1,20 @@
+/* Base */
+@import "./base/reset";
+@import "./base/vars";
+
+/* Libs */
+@import './../../node_modules/swiper/swiper.scss';
+@import './../../node_modules/swiper/modules/pagination.scss';
+@import './../../node_modules/swiper/modules/autoplay.scss';
+@import './../../node_modules/swiper/modules/navigation.scss';
+
+// @import "./base/fonts";
+@import "./base/base";
+@import "./base/utils";
+@import "./base/containers";
+@import "./base/sticky-footer";
+@import "./base/typography";
+@import "./base/swiper";
+
+/* Blocks */
+@import "./blocks/*.scss";
