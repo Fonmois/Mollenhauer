@@ -112,12 +112,9 @@
         color: #000;
         // font-family: Source Sans Pro;
         font-size: 15px;
-        // font-style: normal;
         font-weight: 700;
-        line-height: 120%;
-        /* 18px */
+        line-height: 120%; // 18px
         width: 139px;
-
         margin: 0 0 21px 0;
 
         @media only screen and (min-width: $lg) {
@@ -130,14 +127,11 @@
 
         // font-family: Source Sans Pro;
         font-size: 16px;
-        // font-style: normal;
         font-weight: 400;
-        line-height: 100%;
-        /* 16px */
+        line-height: 100%; // 16px
         margin: 0 0 16px 0;
         display: flex;
         align-items: center;
-
 
         @media only screen and (min-width: $md) {
             max-width: 161px;
@@ -154,7 +148,6 @@
 
             @media only screen and (min-width: $lg) {
                 padding-left: 46px;
-                // width: 80px;
                 height: 30px;
                 background-size: 34px 26px;
             }
@@ -165,14 +158,12 @@
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 130%;
-        /* 18.2px */
+        line-height: 130%; // 18.2px 
         letter-spacing: 0.3px;
         margin: 0 0 24px 0;
 
         @media only screen and (min-width: $md) {
             max-width: 170px;
-
         }
 
         @media only screen and (min-width: $lg) {
@@ -181,9 +172,6 @@
             margin: 0 0 24px 0;
         }
     }
-
-
-
 }
 
 .company__title.orange {
@@ -194,14 +182,10 @@
 
     &__main-title {
         color: #000;
-
         // font-family: Source Sans Pro;
-
-        // font-style: normal;
         font-weight: 700;
         line-height: 100%;
-        font-size: 30px;
-        /* 40px */
+        font-size: 30px; //40px
         margin: 0 0 24px 0;
         letter-spacing: -1px;
 
@@ -216,8 +200,7 @@
         // font-family: Source Sans Pro;
         font-size: 32px;
         font-weight: 400;
-        line-height: 100%;
-        /* 32px */
+        line-height: 100%; // 32px 
         letter-spacing: -1px;
         width: 345px;
         margin: 0 0 40px 0;
@@ -225,7 +208,6 @@
         @media only screen and (min-width: $md) {
             margin: 0 0 30px 0;
             font-size: 30px;
-
         }
 
         @media only screen and (min-width: $lg) {
@@ -272,17 +254,9 @@
 
         display: flex;
         flex-wrap: wrap;
-
-        // flex-direction: column;
-        // @media only screen and (min-width: $md) {
-        //     flex-direction: row;
-        // }
     }
 
     &-card {
-        // display: flex;
-        // flex-wrap: wrap;
-        // flex-direction: column;
 
         @media only screen and (min-width: $md) {
             padding: 0 0 0 80px;
@@ -327,19 +301,7 @@
 
         width: inherit;
         height: inherit;
-        // margin: 0 0 8px 0;
         object-fit: cover;
-
-        // @media only screen and (min-width: $md) {
-        //     margin: 0 0 13px 0;
-        //     width: 113.228px;
-        //     height: 113.754px;
-        // }
-
-        // @media only screen and (min-width: $lg) {
-        //     width: 215px;
-        //     height: 216px;
-        // }
     }
 
     &-row {
@@ -381,7 +343,6 @@
         @media only screen and (min-width: $md) {
 
             font-size: 28px;
-            // transform: rotate(-90deg);
         }
 
         @media only screen and (min-width: $lg) {
@@ -389,16 +350,13 @@
         }
     }
 
-
     &__name {
 
         color: #000;
         // font-family: Source Sans Pro;
         font-size: 15px;
-        // font-style: normal;
         font-weight: 700;
-        line-height: 120%;
-        /* 18px */
+        line-height: 120%; // 18px
         width: 110px;
         margin: 0 0 16px 0;
         height: 42px;
@@ -417,19 +375,13 @@
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 100%;
-        /* 14px */
+        line-height: 100%; // 14px
         display: flex;
-
-        // @media only screen and (min-width: $md) {
-
-        // }
 
         @media only screen and (min-width: $lg) {
             width: 175px;
             font-size: 16px;
             align-items: center;
-
         }
 
         &::before {
@@ -455,7 +407,6 @@
         width: 109.61px;
         height: 109.61px;
         margin: 0 0 8px 0;
-        // object-fit: cover;
 
         @media only screen and (min-width: $md) {
             margin: 0 0 13px 0;

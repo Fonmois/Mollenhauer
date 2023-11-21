@@ -298,7 +298,7 @@
 
     &__background {
         display: flex;
-        background: url('/img/background-mob/services-mob.png');
+        background: url('../img/background-mob/services-mob.png');
         background-repeat: repeat-x;
         background-position: center;
         z-index: 9;
@@ -307,7 +307,7 @@
         width: 120%;
 
         @media only screen and (min-width: 612px) {
-            background: url('/img/background-mob/services-bg.png');
+            background: url('../img/background-mob/services-bg.png');
             background-repeat: no-repeat;
             background-size: 530.232px 393.483px;
             height: 1200px;

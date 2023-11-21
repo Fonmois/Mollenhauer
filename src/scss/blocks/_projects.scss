@@ -164,7 +164,7 @@
     &::after {
         content: "";
         display: flex;
-        background-image: url('/img/background-mob/layout.png');
+        background-image: url('../img/background-mob/layout.png');
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -220,7 +220,7 @@
                 top: -3px;
                 border: 1px solid #cccccc;
                 background-color: white;
-                background-image: url('/img/background-mob/swiper-crane.png');
+                background-image: url('../img/background-mob/swiper-crane.png');
                 background-repeat: inherit;
                 background-size: inherit;
                 z-index: 1;

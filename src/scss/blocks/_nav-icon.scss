@@ -8,9 +8,6 @@
 	--color: #ffffff;
 	--radius: 4px;
     margin: 0 0 0 10px;
-	/* Fixed height and width */
-	/* height: var(--height); */
-	/* width: var(--width); */
 
 	/* Dynamic height and width */
 	height: calc(var(--line-height) * 3 + var(--spacing) * 2);
@@ -90,7 +87,6 @@
 	
 	@media only screen and (max-width: $md) {
 		display: block !important;
-		// transform: translateY(-238px);
 		position: relative;
 		float: right;
 	}
