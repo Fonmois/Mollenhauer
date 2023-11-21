@@ -4,8 +4,7 @@
     &__img-block {
         position: relative;
         margin: 0 30px 0 0;
-        flex-shrink: 0;
-        // height: 170px;     
+        flex-shrink: 0;   
         width: 140.67px;
         height: 169.098px;
 
@@ -39,14 +38,12 @@
             width: 245px;
             height: 196px;
             left: 71px;
-            // bottom: -175px;
             bottom: 0;
         }
     }
 
     &__svg--second {
         position: absolute;
-
         z-index: -1;
         width: 126.344px;
         height: 97.437px;
@@ -67,7 +64,6 @@
             bottom: -40px;
         }
     }
-
 
     &__container {
         display: flex;
@@ -97,11 +93,8 @@
         display: flex;
     }
 
-    &__img {}
-
     &__list {
         width: 191px;
-
     }
 
     &__hr {
@@ -111,14 +104,12 @@
 
         @media only screen and (min-width: $md) {
             margin: 0 0px 72px 77px;
-            // max-width: 1088px;
             max-width: 1360px;
         }
     }
 
     &__name {
         color: #000;
-
         // font-family: Source Sans Pro;
         font-size: 15px;
         // font-style: normal;
@@ -128,10 +119,6 @@
         width: 139px;
 
         margin: 0 0 21px 0;
-
-        @media only screen and (min-width: $md) {
-            // max-width: 161px;
-        }
 
         @media only screen and (min-width: $lg) {
             font-size: 36px;
@@ -156,14 +143,13 @@
             max-width: 161px;
         }
 
-        // @media only screen and (min-width: $lg) {
-        // }
         &::before {
             content: "";
-            background-image: url("/img/background-mob/right-arrow-icon.svg");
+            display: block;
+            background-image: url('data:image/svg+xml, %20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2237%22%20height%3D%2223%22%20viewBox%3D%220%200%2037%2023%22%20fill%3D%22none%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20d%3D%22M36.0607%2012.8605C36.6464%2012.2747%2036.6464%2011.3249%2036.0607%2010.7391L26.5147%201.1932C25.9289%200.607414%2024.9792%200.607414%2024.3934%201.1932C23.8076%201.77899%2023.8076%202.72873%2024.3934%203.31452L32.8787%2011.7998L24.3934%2020.2851C23.8076%2020.8709%2023.8076%2021.8206%2024.3934%2022.4064C24.9792%2022.9922%2025.9289%2022.9922%2026.5147%2022.4064L36.0607%2012.8605ZM1.31134e-07%2013.2998L35%2013.2998L35%2010.2998L-1.31134e-07%2010.2998L1.31134e-07%2013.2998Z%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FF7C40%22%20%2F%3E%3C%2Fsvg%3E');
             background-repeat: no-repeat;
-            background-size: 17px 17px;
-            padding-left: 20px;
+            background-size: 20px 14px;
+            padding-left: 27px;
             height: 17px;
 
             @media only screen and (min-width: $lg) {
@@ -448,15 +434,15 @@
 
         &::before {
             content: "";
-            background-image: url("/img/background-mob/right-arrow-icon.svg");
+            display: block;
+            background-image: url('data:image/svg+xml, %20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2237%22%20height%3D%2223%22%20viewBox%3D%220%200%2037%2023%22%20fill%3D%22none%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20d%3D%22M36.0607%2012.8605C36.6464%2012.2747%2036.6464%2011.3249%2036.0607%2010.7391L26.5147%201.1932C25.9289%200.607414%2024.9792%200.607414%2024.3934%201.1932C23.8076%201.77899%2023.8076%202.72873%2024.3934%203.31452L32.8787%2011.7998L24.3934%2020.2851C23.8076%2020.8709%2023.8076%2021.8206%2024.3934%2022.4064C24.9792%2022.9922%2025.9289%2022.9922%2026.5147%2022.4064L36.0607%2012.8605ZM1.31134e-07%2013.2998L35%2013.2998L35%2010.2998L-1.31134e-07%2010.2998L1.31134e-07%2013.2998Z%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FF7C40%22%20%2F%3E%3C%2Fsvg%3E');
             background-repeat: no-repeat;
-            background-size: 17px 17px;
-            padding-left: 20px;
-            height: 17px;
+            background-size: 18px 15px;
+            padding-left: 22px;
+            height: 30px;
 
             @media only screen and (min-width: $lg) {
                 padding-left: 46px;
-                // width: 80px;
                 height: 30px;
                 background-size: 34px 26px;
             }

@@ -7,7 +7,7 @@
     background-image:
         linear-gradient(180deg,
             #06255B 0%, rgba(6, 37, 91, 0.00) 100%),
-        url('/img/background-mob/background.png');
+        url('/img/background-mob/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -161,6 +161,8 @@
 .slogan-block {        
             display: flex;
             position: relative;
+
+            @media only screen and (min-width: $md) {
             display: grid;
             z-index: 15;
             grid-template-areas:
@@ -169,6 +171,7 @@
                 ". main-page__zuverlassig";
             width: 200px;
             justify-items: center;
+            }
 
     &_margin {
         column-gap: 14px;

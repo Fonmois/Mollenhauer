@@ -115,19 +115,19 @@
 			gap: 3px;
 			// font-family: Source Sans Pro;
 			font-size: 15px;
-			// font-style: normal;
 			font-weight: 400;
 			line-height: 120%; //18px
 			letter-spacing: 0.2px;
 
 			&--active .langluage-list__text {
 				opacity: 1 !important;
+				text-decoration: underline !important;
 			}
 		}
 
-		&__text {		
+		&__text {
 			color: #06255B;
-			opacity: 0.4 !important;		
+			opacity: 0.4 !important;
 			cursor: pointer;
 
 			&:hover {
@@ -140,11 +140,13 @@
 				text-decoration: underline !important;
 			}
 		}
-	}
-}
 
-.mobile-nav a {
-	// color: #fff;
+		&__img {
+			width: 12px;
+			height: 12px;
+			border-radius: 50%;
+		}
+	}
 }
 
 .nav-list {

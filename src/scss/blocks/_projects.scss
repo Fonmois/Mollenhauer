@@ -1,6 +1,6 @@
 .projects {
-        position: relative;
-        z-index: 1;
+    position: relative;
+    z-index: 1;
 
     &_margin {
         margin: 650px 0 121px 0;
@@ -169,7 +169,7 @@
         background-size: cover;
         width: 100%;
         height: 97px;
-        position: absolute;      
+        position: absolute;
         bottom: 3px;
     }
 
@@ -246,7 +246,8 @@
             &::after {
                 position: absolute;
                 content: "";
-                background-image: url('/img/background-mob/plus.svg');
+                // Преобразуем svg с помощью URL decoder
+                background-image: url('data:image/svg+xml, %3Csvg%20width%3D%2217%22%20height%3D%2217%22%20viewBox%3D%220%200%2017%2017%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22M16.9765%209.46582L16.9765%207.66519H9.83781L9.83781%200.526535H8.03719L8.03719%207.66519H0.898527L0.898527%209.46582L8.03719%209.46582L8.03719%2016.6045H9.83781L9.83781%209.46582L16.9765%209.46582Z%22%20fill%3D%22%23DA5D24%22%2F%3E%0A%3C%2Fsvg%3E%0A');
                 width: 16.642px;
                 height: 16.642px;
                 left: 95%;
